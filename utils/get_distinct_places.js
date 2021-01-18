@@ -8,6 +8,8 @@ SOURCE_FILES = [
   '../../intertextuality/metadata/TravelogueD19_1800-1820_Orient_2020-11-12.csv'
 ];
 
+OUTFILE = 'unique_places.txt';
+
 /**
  * Normalizes a placenamen, fixing the most common patterns in the data
  */
@@ -21,13 +23,13 @@ const normalize = str => {
 
   // Enclosing square brackets
   if (/^\[(.*?)\]?/g.test(str)) {
-    str = str.replace(/^\[/g, '');
-    str = str.replace(/\]$/g, '');
+    str = str.replace(/^\[/g, '').trim();
+    str = str.replace(/\]$/g, '').trim();
   }
 
   // Royal fluff :-)
-  str = str.replace(/(der Churfürstlichen Stadt|der Fürstl: Statt|der [kK][ae][yi]serlichen Stat?t)/g, '');
-  str = str.replace(/(der K[ae]yserliche\[?n\]? (Reychs Statt|Freystat))/g, '');
+  str = str.replace(/(der Churfürstlichen Stadt|der Fürstl: Statt|der [kK][ae][yi]serlichen Stat?t)/g, '').trim();
+  str = str.replace(/(der K[ae]yserliche\[?n\]? (Reychs Statt|Freystat))/g, '').trim();
 
   return str;
 }
@@ -45,7 +47,11 @@ Promise.all(SOURCE_FILES.map(file =>
     const placeColumn = result.data.map(obj => obj.Verlagsort.trim());
     placeColumn.forEach(colValue => {
       const places = colValue.split(/und|;/i).map(str => str.trim());
-      places.forEach(p => verlagsorte.add(normalize(p)));
+      places.forEach(p => { 
+        const normalized = normalize(p);
+        if (normalized.length > 0)
+          verlagsorte.add(normalize(p));
+      });
     });
   });
 
@@ -55,7 +61,7 @@ Promise.all(SOURCE_FILES.map(file =>
 }).catch(err => 
   console.log(err)
 ).then(places => {
-  places.forEach(p => console.log(p));
+  fs.writeFile(OUTFILE, places.join('\n'), 'utf8', () => console.log('done'));
 });
 
 
