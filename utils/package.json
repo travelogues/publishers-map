@@ -4,7 +4,8 @@
   "description": "",
   "main": "get_distinct_places.js",
   "scripts": {
-    "start": "node get_distinct_places.js",
+    "extract_places": "node extract_places.js",
+    "build_map_data": "node build_map_data.js", 
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Rainer Simon",

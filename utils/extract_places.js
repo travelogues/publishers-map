@@ -8,7 +8,7 @@ SOURCE_FILES = [
   '../../intertextuality/metadata/TravelogueD19_1800-1820_Orient_2020-11-12.csv'
 ];
 
-OUTFILE = 'unique_places.txt';
+OUTFILE = '../data/unique_places.txt';
 
 /**
  * Normalizes a placenamen, fixing the most common patterns in the data
@@ -70,14 +70,3 @@ Promise.all(SOURCE_FILES.map(file =>
 ).then(places => {
   fs.writeFile(OUTFILE, places.join('\n'), 'utf8', () => console.log('done'));
 });
-
-
-// Step 1: load source CSV files
-
-// Step 2: grab column 'Verlagsorte'
-
-// Step 3: split on 'und'
-
-// Step 4: create set
-
-// Step 5: write result .txt, one placename per line
