@@ -1,0 +1,121 @@
+Alt=Stadt Prag, 50.08804, 14.42076
+Altenburg, 50.9872, 12.4373
+Altenburg Meissen, 50.9872, 12.4373
+Amsterdam, 52.37403, 4.88969
+Antorff, 51.22047, 4.40026
+Arnheim, 51.98, 5.91111
+Arnhem, 51.98, 5.91111
+Auff den Fürstl. Residentz Schloß Bevern
+Augsburg, 48.37154, 10.89851
+Augspurg, 48.37154, 10.89851
+Basel, 47.55839, 7.57327
+Bayreuth, 49.94782, 11.57893
+Berlin, 52.52437, 13.41053
+Bern, 46.94809, 7.44744
+Beschreibung des Morgenlandes
+Breslau, 51.1, 17.03333
+Brixen, 46.71503, 11.65598
+Brünn, 49.19522, 16.60796
+Chur=Fürstl. Haupt= vnd Residentz=Statt München, 48.13743, 11.57549
+Costantz am Bodensee, 47.66033, 9.17582
+Cöllen, 50.93333, 6.95
+Cölln, 50.93333, 6.95
+Dilingen, 48.58153, 10.49527
+Dreßden, 51.05089, 13.73832
+Erfurt, 50.9787, 11.03283
+Erlangen, 49.59099, 11.00783
+Erstlich  Amstertamb Holland [i.e. Köln?]
+Frackfurt am Mayn, 50.11552, 8.68417
+Franckfort am Mayn, 50.11552, 8.68417
+Franckfort am Mäyn, 50.11552, 8.68417
+Franckfurt, 50.11552, 8.68417
+Franckfurt am Main, 50.11552, 8.68417
+Franckfurt am Mayn, 50.11552, 8.68417
+Franckfurt am Meyn, 50.11552, 8.68417
+Franckfurt am Mäyn, 50.11552, 8.68417
+Franckfurth am Mayn, 50.11552, 8.68417
+Francoforti Ad Moenvm, 50.11552, 8.68417
+Frankfurt, 50.11552, 8.68417
+Frankfurt am Main, 50.11552, 8.68417
+Frankfurt am Mayn, 50.11552, 8.68417
+Freyburg Vchtland, 46.80237, 7.15128
+Freyburg im Vchtland, 46.80237, 7.15128
+Genff
+Gera
+Gotha
+Grätz
+Gräz
+Görlitz
+Göttingen
+Güstrow
+Hagenaw
+Halle
+Hamburg
+Hamburg [das heißt Wien?]
+Hanaw
+Heidelberg
+Helmstädt
+Heydelberg
+Historische Beschreibung der kleinen W
+Jehna
+Jena
+Jngolstadt
+Jngolstatt
+Jtzstein
+Karlsruhe
+Kopenhagen
+Königsberg
+Landshut
+Laugingen
+Leipzig
+Liegnitz
+Lutetiæ [das heißt Ulm?]
+Ländern
+Magdeburg
+Marpurg
+Marpurg im Hessen land
+Meyntz
+München, 48.13743, 11.57549
+Neue selbst
+Neuhoffen
+Noribergæ
+Nüreinbergk
+Nürmberg
+Nürnberg
+Ohne Ort
+Oldenburg
+Oppenheim
+Penig
+Pesth
+Petri Della Valle Reiß-Beschreibung Zweyter Theil. In sich haltend, die Reisen Persien
+Ronneburg
+Rostock
+Rotenburg
+Schleßwig
+St. Gallen
+St. Petersburg
+Strasburg
+Straßburg
+Straßburg am Kornmarckt
+Stuttgart
+Sultzbach
+Triest
+Troppau
+Tübingen
+Ulm
+Vlm
+Weimar
+Wien
+Wien Oesterreich
+Wien?
+Wienn
+Wienn Oesterreich
+Wienn Osterreich
+Winterthur
+Würtzburg
+Zerbst
+Zittau
+Zürich
+aufnehmen unser unnd Untugendt Untugend Türkischen
+einiger anderer Länder
+erwelt, welche liegt den Kayserthumen, Königreichen,
