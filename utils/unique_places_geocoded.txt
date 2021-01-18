@@ -41,20 +41,20 @@ Frankfurt am Mayn, 50.11552, 8.68417
 Freyburg Vchtland, 46.80237, 7.15128
 Freyburg im Vchtland, 46.80237, 7.15128
 Genff, 46.20222, 6.14569
-Gera
-Gotha
+Gera, 50.88029, 12.08187
+Gotha, 50.94823, 10.70193
 Grätz
 Gräz
-Görlitz
+Görlitz, 51.15518, 14.98853
 Göttingen, 51.53443, 9.93228
-Güstrow
+Güstrow, 53.7972, 12.17337
 Hagenaw
 Halle
-Hamburg
+Hamburg, 53.55073, 9.99302
 Hamburg [das heißt Wien?]
 Hanaw
 Heidelberg, 49.40768, 8.69079
-Helmstädt
+Helmstädt, 52.2279, 11.00985
 Heydelberg, 49.40768, 8.69079
 Historische Beschreibung der kleinen W
 Jehna, 50.92878, 11.5899
@@ -62,13 +62,13 @@ Jena, 50.92878, 11.5899
 Jngolstadt, 48.76508, 11.42372
 Jngolstatt, 48.76508, 11.42372
 Jtzstein
-Karlsruhe
+Karlsruhe, 49.00937, 8.40444
 Kopenhagen, 55.67594, 12.56553
 Königsberg
-Landshut
+Landshut, 48.52961, 12.16179
 Laugingen
 Leipzig, 51.33962, 12.37129
-Liegnitz
+Liegnitz, 51.21006, 16.1619
 Lutetiæ [das heißt Ulm?]
 Ländern
 Magdeburg, 52.12773, 11.62916
@@ -83,12 +83,12 @@ Nüreinbergk, 49.45421, 11.07752
 Nürmberg, 49.45421, 11.07752
 Nürnberg, 49.45421, 11.07752
 Ohne Ort
-Oldenburg
-Oppenheim
-Penig
+Oldenburg, 53.14118, 8.21467
+Oppenheim, 49.8547, 8.35974
+Penig, 50.93336, 12.70422
 Pesth
 Petri Della Valle Reiß-Beschreibung Zweyter Theil. In sich haltend, die Reisen Persien
-Ronneburg
+Ronneburg, 50.8634, 12.18666
 Rostock, 54.0887, 12.14049
 Rotenburg
 Schleßwig
@@ -99,9 +99,9 @@ Straßburg, 48.58392, 7.74553
 Straßburg am Kornmarckt, 48.58392, 7.74553
 Stuttgart, 48.78232, 9.17702
 Sultzbach
-Triest
-Troppau
-Tübingen
+Triest, 45.64953, 13.77678
+Troppau, 49.93866, 17.90257
+Tübingen, 48.52266, 9.05222
 Ulm, 48.39841, 9.99155
 Vlm, 48.39841, 9.99155
 Weimar, 50.9803, 11.32903
