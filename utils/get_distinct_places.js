@@ -13,7 +13,7 @@ OUTFILE = 'unique_places.txt';
 /**
  * Normalizes a placenamen, fixing the most common patterns in the data
  */
-const normalize = str => {
+const normalizePrinted = str => {
   // Various variations of 'gedruckt (und verlegt) in'
   str = str.replace(/[Gg]e[dt]ruckh?[t/]?( vnn?d verlegt)?( z[uů]|in)?/g, '').trim();
   str = str.replace(/verlegt/g, '').trim();
@@ -34,6 +34,10 @@ const normalize = str => {
   return str;
 }
 
+const normalizeGND = str => {
+  return str.split(';')[0].trim()
+}
+
 Promise.all(SOURCE_FILES.map(file =>
   new Promise((complete, error) =>
     Papa.parse(fs.createReadStream(file), {
@@ -44,13 +48,13 @@ Promise.all(SOURCE_FILES.map(file =>
   const verlagsorte = new Set();
 
   results.forEach(result => {
-    const placeColumn = result.data.map(obj => obj.Verlagsort.trim());
+    const placeColumn = result.data.map(obj => obj['Verlagsort normiert ; GND-ID'].trim());
     placeColumn.forEach(colValue => {
-      const places = colValue.split(/und|;/i).map(str => str.trim());
+      const places = colValue.split('-.').map(str => str.trim());
       places.forEach(p => { 
-        const normalized = normalize(p);
+        const normalized = normalizeGND(p);
         if (normalized.length > 0)
-          verlagsorte.add(normalize(p));
+          verlagsorte.add(normalized);
       });
     });
   });
