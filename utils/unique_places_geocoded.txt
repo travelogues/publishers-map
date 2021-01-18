@@ -40,48 +40,48 @@ Frankfurt am Main, 50.11552, 8.68417
 Frankfurt am Mayn, 50.11552, 8.68417
 Freyburg Vchtland, 46.80237, 7.15128
 Freyburg im Vchtland, 46.80237, 7.15128
-Genff
+Genff, 46.20222, 6.14569
 Gera
 Gotha
 Grätz
 Gräz
 Görlitz
-Göttingen
+Göttingen, 51.53443, 9.93228
 Güstrow
 Hagenaw
 Halle
 Hamburg
 Hamburg [das heißt Wien?]
 Hanaw
-Heidelberg
+Heidelberg, 49.40768, 8.69079
 Helmstädt
-Heydelberg
+Heydelberg, 49.40768, 8.69079
 Historische Beschreibung der kleinen W
-Jehna
-Jena
-Jngolstadt
-Jngolstatt
+Jehna, 50.92878, 11.5899
+Jena, 50.92878, 11.5899
+Jngolstadt, 48.76508, 11.42372
+Jngolstatt, 48.76508, 11.42372
 Jtzstein
 Karlsruhe
-Kopenhagen
+Kopenhagen, 55.67594, 12.56553
 Königsberg
 Landshut
 Laugingen
-Leipzig
+Leipzig, 51.33962, 12.37129
 Liegnitz
 Lutetiæ [das heißt Ulm?]
 Ländern
-Magdeburg
-Marpurg
-Marpurg im Hessen land
+Magdeburg, 52.12773, 11.62916
+Marpurg, 50.80904, 8.77069
+Marpurg im Hessen land, 50.80904, 8.77069
 Meyntz
 München, 48.13743, 11.57549
 Neue selbst
 Neuhoffen
 Noribergæ
-Nüreinbergk
-Nürmberg
-Nürnberg
+Nüreinbergk, 49.45421, 11.07752
+Nürmberg, 49.45421, 11.07752
+Nürnberg, 49.45421, 11.07752
 Ohne Ort
 Oldenburg
 Oppenheim
@@ -89,33 +89,33 @@ Penig
 Pesth
 Petri Della Valle Reiß-Beschreibung Zweyter Theil. In sich haltend, die Reisen Persien
 Ronneburg
-Rostock
+Rostock, 54.0887, 12.14049
 Rotenburg
 Schleßwig
-St. Gallen
-St. Petersburg
-Strasburg
-Straßburg
-Straßburg am Kornmarckt
-Stuttgart
+St. Gallen, 47.42391, 9.37477
+St. Petersburg, 59.93863, 30.31413
+Strasburg, 48.58392, 7.74553
+Straßburg, 48.58392, 7.74553
+Straßburg am Kornmarckt, 48.58392, 7.74553
+Stuttgart, 48.78232, 9.17702
 Sultzbach
 Triest
 Troppau
 Tübingen
-Ulm
-Vlm
-Weimar
-Wien
-Wien Oesterreich
-Wien?
-Wienn
-Wienn Oesterreich
-Wienn Osterreich
-Winterthur
-Würtzburg
-Zerbst
-Zittau
-Zürich
+Ulm, 48.39841, 9.99155
+Vlm, 48.39841, 9.99155
+Weimar, 50.9803, 11.32903
+Wien, 48.20849, 16.37208
+Wien Oesterreich, 48.20849, 16.37208
+Wien?, 48.20849, 16.37208
+Wienn, 48.20849, 16.37208
+Wienn Oesterreich, 48.20849, 16.37208
+Wienn Osterreich, 48.20849, 16.37208
+Winterthur, 47.50564, 8.72413
+Würtzburg, 49.79391, 9.95121
+Zerbst, 51.9662, 12.08517
+Zittau, 50.89772, 14.80764
+Zürich, 47.36667, 8.55
 aufnehmen unser unnd Untugendt Untugend Türkischen
 einiger anderer Länder
 erwelt, welche liegt den Kayserthumen, Königreichen,
