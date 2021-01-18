@@ -48,8 +48,11 @@ Promise.all(SOURCE_FILES.map(file =>
   const verlagsorte = new Set();
 
   results.forEach(result => {
-    const placeColumn = result.data.map(obj => obj['Verlagsort normiert ; GND-ID'].trim());
-    placeColumn.forEach(colValue => {
+
+    const publishingPlaces = result.data.map(obj => obj['Verlagsort normiert ; GND-ID'].trim());
+    const printingPlaces = result.data.map(obj => obj['Druckort normiert ; GND-ID'].trim());
+
+    [ ...publishingPlaces, ...printingPlaces ].forEach(colValue => {
       const places = colValue.split('-.').map(str => str.trim());
       places.forEach(p => { 
         const normalized = normalizeGND(p);
