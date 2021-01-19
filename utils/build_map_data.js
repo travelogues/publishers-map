@@ -15,6 +15,8 @@ METADATA = [
 
 GEOLOCATIONS = '../data/unique_places_geocoded.csv';
 
+OUTFILE = '../data/map.json';
+
 const parsePlaces = val => {
   // Multiple places are separated by -. (convention)
   const tokens = val.split('-.').map(str => str.trim());
@@ -105,11 +107,11 @@ Promise.all([ fLoadGeoLocations, ...fLoadMetadata ]).then(result => {
         placename: key,
         geonames_uri: place.GeoNames,
         num_works: value.length
-      }
+      },
+      records: value
     });
   }
 
   // Step 4 - write results
-  console.log(mapData);
-
+  fs.writeFile(OUTFILE, JSON.stringify(mapData, null, 2), 'utf8', () => console.log('Done.'));
 }).catch(error => console.log(error));

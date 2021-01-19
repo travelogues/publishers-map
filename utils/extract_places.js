@@ -68,5 +68,5 @@ Promise.all(SOURCE_FILES.map(file =>
 }).catch(err => 
   console.log(err)
 ).then(places => {
-  fs.writeFile(OUTFILE, places.join('\n'), 'utf8', () => console.log('done'));
+  fs.writeFile(OUTFILE, places.join('\n'), 'utf8', () => console.log('Done.'));
 });
