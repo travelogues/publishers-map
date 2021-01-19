@@ -101,7 +101,7 @@ Promise.all([ fLoadGeoLocations, ...fLoadMetadata ]).then(result => {
       type: 'Feature',
       geometry: {
         type: 'Point',
-        coordinates: [ place.Lon, place.Lat ]
+        coordinates: [ parseFloat(place.Lon), parseFloat(place.Lat) ]
       },
       properties: { 
         placename: key,
