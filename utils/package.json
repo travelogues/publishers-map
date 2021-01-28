@@ -6,6 +6,7 @@
   "scripts": {
     "extract_places": "node extract_places.js",
     "build_map_data": "node build_map_data.js", 
+    "create_filtered_map": "node create_filtered_map.js", 
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Rainer Simon",

@@ -1,0 +1,1685 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.37208,
+          48.20849
+        ]
+      },
+      "properties": {
+        "placename": "Wien",
+        "geonames_uri": "http://sws.geonames.org/2761369",
+        "num_works": 17
+      },
+      "records": [
+        {
+          "id": "AC06481705",
+          "year": 1801,
+          "markers": [
+            "TravelogueD19",
+            "Asien",
+            "Europa",
+            "Orient"
+          ],
+          "tags": [
+            "publication_place"
+          ],
+          "all_places": [
+            "Wien"
+          ]
+        },
+        {
+          "id": "AC10292778",
+          "year": 1802,
+          "markers": [
+            "TravelogueD19",
+            "Europa",
+            "Orient"
+          ],
+          "tags": [
+            "publication_place"
+          ],
+          "all_places": [
+            "Wien"
+          ]
+        },
+        {
+          "id": "AC04833199",
+          "year": 1803,
+          "markers": [
+            "TravelogueD19",
+            "Orient",
+            "Asien"
+          ],
+          "tags": [
+            "publication_place"
+          ],
+          "all_places": [
+            "Wien"
+          ]
+        },
+        {
+          "id": "AC09799338",
+          "year": 1804,
+          "markers": [
+            "TravelogueD19",
+            "Europa",
+            "Afrika",
+            "Orient"
+          ],
+          "tags": [
+            "publication_place"
+          ],
+          "all_places": [
+            "Wien"
+          ]
+        },
+        {
+          "id": "AC03115112",
+          "year": 1804,
+          "markers": [
+            "TravelogueD19",
+            "Asien",
+            "Europa",
+            "Afrika",
+            "Orient"
+          ],
+          "tags": [
+            "publication_place"
+          ],
+          "all_places": [
+            "Wien"
+          ]
+        },
+        {
+          "id": "AC10255957",
+          "year": 1804,
+          "markers": [
+            "TravelogueD19",
+            "Orient",
+            "Europa"
+          ],
+          "tags": [
+            "publication_place",
+            "printing_place"
+          ],
+          "all_places": [
+            "Wien"
+          ]
+        },
+        {
+          "id": "AC10443688",
+          "year": 1804,
+          "markers": [
+            "TravelogueD19",
+            "Europa",
+            "Orient"
+          ],
+          "tags": [
+            "publication_place"
+          ],
+          "all_places": [
+            "Wien"
+          ]
+        },
+        {
+          "id": "AC09737072",
+          "year": 1808,
+          "markers": [
+            "TravelogueD19",
+            "Asien",
+            "Orient"
+          ],
+          "tags": [
+            "publication_place",
+            "printing_place"
+          ],
+          "all_places": [
+            "Wien"
+          ]
+        },
+        {
+          "id": "AC08380278",
+          "year": 1809,
+          "markers": [
+            "TravelogueD19",
+            "Asien",
+            "Orient"
+          ],
+          "tags": [
+            "publication_place",
+            "printing_place"
+          ],
+          "all_places": [
+            "Wien"
+          ]
+        },
+        {
+          "id": "AC15312900",
+          "year": 1809,
+          "markers": [
+            "TravelogueD19",
+            "Nordamerika",
+            "Asien",
+            "Europa",
+            "Orient"
+          ],
+          "tags": [
+            "publication_place"
+          ],
+          "all_places": [
+            "Wien"
+          ]
+        },
+        {
+          "id": "AC15312879",
+          "year": 1809,
+          "markers": [
+            "TravelogueD19",
+            "Afrika",
+            "Europa",
+            "Asien",
+            "Orient"
+          ],
+          "tags": [
+            "publication_place"
+          ],
+          "all_places": [
+            "Wien"
+          ]
+        },
+        {
+          "id": "AC15312871",
+          "year": 1809,
+          "markers": [
+            "TravelogueD19",
+            "Asien",
+            "Südamerika",
+            "Orient"
+          ],
+          "tags": [
+            "publication_place"
+          ],
+          "all_places": [
+            "Wien"
+          ]
+        },
+        {
+          "id": "AC15312865",
+          "year": 1809,
+          "markers": [
+            "TravelogueD19",
+            "Ozeanien",
+            "Afrika",
+            "Europa",
+            "Asien",
+            "Orient"
+          ],
+          "tags": [
+            "publication_place"
+          ],
+          "all_places": [
+            "Wien"
+          ]
+        },
+        {
+          "id": "AC08110479",
+          "year": 1811,
+          "markers": [
+            "TravelogueD19",
+            "Europa",
+            "Asien",
+            "Orient"
+          ],
+          "tags": [
+            "publication_place"
+          ],
+          "all_places": [
+            "Wien"
+          ]
+        },
+        {
+          "id": "AC10239869",
+          "year": 1813,
+          "markers": [
+            "TravelogueD19",
+            "Asien",
+            "Afrika",
+            "Europa",
+            "Orient"
+          ],
+          "tags": [
+            "publication_place",
+            "printing_place"
+          ],
+          "all_places": [
+            "Wien"
+          ]
+        },
+        {
+          "id": "AC09931692",
+          "year": 1818,
+          "markers": [
+            "TravelogueD19",
+            "Asien",
+            "Europa",
+            "Orient"
+          ],
+          "tags": [
+            "publication_place",
+            "printing_place"
+          ],
+          "all_places": [
+            "Wien"
+          ]
+        },
+        {
+          "id": "AC10318512",
+          "year": 1820,
+          "markers": [
+            "TravelogueD19",
+            "Afrika",
+            "Asien",
+            "Europa",
+            "Orient"
+          ],
+          "tags": [
+            "publication_place"
+          ],
+          "all_places": [
+            "Wien"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.97947,
+          51.48158
+        ]
+      },
+      "properties": {
+        "placename": "Halle (Saale)",
+        "geonames_uri": "http://sws.geonames.org/2911522",
+        "num_works": 1
+      },
+      "records": [
+        {
+          "id": "AC10274099",
+          "year": 1801,
+          "markers": [
+            "TravelogueD19",
+            "Orient",
+            "Asien",
+            "Europa"
+          ],
+          "tags": [
+            "printing_place"
+          ],
+          "all_places": [
+            "Königsberg",
+            "Halle (Saale)"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.55,
+          47.36667
+        ]
+      },
+      "properties": {
+        "placename": "Zürich",
+        "geonames_uri": "http://sws.geonames.org/2657896",
+        "num_works": 1
+      },
+      "records": [
+        {
+          "id": "AC15385381",
+          "year": 1800,
+          "markers": [
+            "TravelogueD19",
+            "Asien",
+            "Orient"
+          ],
+          "tags": [
+            "publication_place",
+            "printing_place"
+          ],
+          "all_places": [
+            "Zürich"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.37129,
+          51.33962
+        ]
+      },
+      "properties": {
+        "placename": "Leipzig",
+        "geonames_uri": "http://sws.geonames.org/2879139",
+        "num_works": 14
+      },
+      "records": [
+        {
+          "id": "AC09741261",
+          "year": 1800,
+          "markers": [
+            "TravelogueD19",
+            "Afrika",
+            "Asien",
+            "Orient"
+          ],
+          "tags": [
+            "publication_place"
+          ],
+          "all_places": [
+            "Leipzig"
+          ]
+        },
+        {
+          "id": "AC15227495",
+          "year": 1800,
+          "markers": [
+            "TravelogueD19",
+            "Afrika",
+            "Europa",
+            "Orient"
+          ],
+          "tags": [
+            "publication_place"
+          ],
+          "all_places": [
+            "Leipzig"
+          ]
+        },
+        {
+          "id": "AC15227493",
+          "year": 1800,
+          "markers": [
+            "TravelogueD19",
+            "Afrika",
+            "Europa",
+            "Orient"
+          ],
+          "tags": [
+            "publication_place"
+          ],
+          "all_places": [
+            "Leipzig"
+          ]
+        },
+        {
+          "id": "AC10809709",
+          "year": 1801,
+          "markers": [
+            "TravelogueD19",
+            "Orient",
+            "Europa"
+          ],
+          "tags": [
+            "publication_place",
+            "printing_place"
+          ],
+          "all_places": [
+            "Leipzig"
+          ]
+        },
+        {
+          "id": "AC08577073",
+          "year": 1801,
+          "markers": [
+            "TravelogueD19",
+            "Asien",
+            "Europa",
+            "Orient"
+          ],
+          "tags": [
+            "printing_place"
+          ],
+          "all_places": [
+            "Liegnitz",
+            "Leipzig"
+          ]
+        },
+        {
+          "id": "AC10360147",
+          "year": 1802,
+          "markers": [
+            "TravelogueD19",
+            "Asien",
+            "Orient"
+          ],
+          "tags": [
+            "publication_place"
+          ],
+          "all_places": [
+            "Leipzig"
+          ]
+        },
+        {
+          "id": "AC11434945",
+          "year": 1804,
+          "markers": [
+            "TravelogueD19",
+            "Asien",
+            "Afrika",
+            "Orient"
+          ],
+          "tags": [
+            "publication_place"
+          ],
+          "all_places": [
+            "Leipzig"
+          ]
+        },
+        {
+          "id": "AC09845483",
+          "year": 1805,
+          "markers": [
+            "TravelogueD19",
+            "Asien",
+            "Europa",
+            "Afrika",
+            "Orient"
+          ],
+          "tags": [
+            "publication_place",
+            "printing_place"
+          ],
+          "all_places": [
+            "Leipzig"
+          ]
+        },
+        {
+          "id": "AC11434962",
+          "year": 1805,
+          "markers": [
+            "TravelogueD19",
+            "Asien",
+            "Afrika",
+            "Orient"
+          ],
+          "tags": [
+            "publication_place"
+          ],
+          "all_places": [
+            "Leipzig"
+          ]
+        },
+        {
+          "id": "AC15248089",
+          "year": 1810,
+          "markers": [
+            "TravelogueD19",
+            "Europa",
+            "Asien",
+            "Orient"
+          ],
+          "tags": [
+            "publication_place"
+          ],
+          "all_places": [
+            "Leipzig"
+          ]
+        },
+        {
+          "id": "AC15511421",
+          "year": 1810,
+          "markers": [
+            "TravelogueD19",
+            "Asien",
+            "Europa",
+            "Afrika",
+            "Orient"
+          ],
+          "tags": [
+            "publication_place"
+          ],
+          "all_places": [
+            "Leipzig"
+          ]
+        },
+        {
+          "id": "AC15248142",
+          "year": 1811,
+          "markers": [
+            "TravelogueD19",
+            "Nordamerika",
+            "Asien",
+            "Europa",
+            "Afrika",
+            "Südamerika",
+            "Orient"
+          ],
+          "tags": [
+            "publication_place"
+          ],
+          "all_places": [
+            "Leipzig"
+          ]
+        },
+        {
+          "id": "AC15248127",
+          "year": 1811,
+          "markers": [
+            "TravelogueD19",
+            "Afrika",
+            "Europa",
+            "Orient"
+          ],
+          "tags": [
+            "publication_place"
+          ],
+          "all_places": [
+            "Leipzig"
+          ]
+        },
+        {
+          "id": "AC09699611",
+          "year": 1812,
+          "markers": [
+            "TravelogueD19",
+            "Asien",
+            "Orient"
+          ],
+          "tags": [
+            "publication_place"
+          ],
+          "all_places": [
+            "Leipzig"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.57549,
+          48.13743
+        ]
+      },
+      "properties": {
+        "placename": "München",
+        "geonames_uri": "http://sws.geonames.org/2867714",
+        "num_works": 1
+      },
+      "records": [
+        {
+          "id": "AC10287612",
+          "year": 1814,
+          "markers": [
+            "TravelogueD19",
+            "Europa",
+            "Asien",
+            "Orient"
+          ],
+          "tags": [
+            "publication_place",
+            "printing_place"
+          ],
+          "all_places": [
+            "München"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5899,
+          50.92878
+        ]
+      },
+      "properties": {
+        "placename": "Jena",
+        "geonames_uri": "http://sws.geonames.org/2895044",
+        "num_works": 4
+      },
+      "records": [
+        {
+          "id": "AC12095864",
+          "year": 1800,
+          "markers": [
+            "TravelogueD19",
+            "Afrika",
+            "Asien",
+            "Orient"
+          ],
+          "tags": [
+            "publication_place",
+            "printing_place"
+          ],
+          "all_places": [
+            "Jena"
+          ]
+        },
+        {
+          "id": "AC15244880",
+          "year": 1801,
+          "markers": [
+            "TravelogueD19",
+            "Afrika",
+            "Asien",
+            "Orient"
+          ],
+          "tags": [
+            "publication_place",
+            "printing_place"
+          ],
+          "all_places": [
+            "Jena"
+          ]
+        },
+        {
+          "id": "AC15244882",
+          "year": 1803,
+          "markers": [
+            "TravelogueD19",
+            "Afrika",
+            "Asien",
+            "Orient"
+          ],
+          "tags": [
+            "publication_place",
+            "printing_place"
+          ],
+          "all_places": [
+            "Jena"
+          ]
+        },
+        {
+          "id": "AC11678752",
+          "year": 1820,
+          "markers": [
+            "TravelogueD19",
+            "Afrika",
+            "Asien",
+            "Orient"
+          ],
+          "tags": [
+            "publication_place"
+          ],
+          "all_places": [
+            "Jena"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.99302,
+          53.55073
+        ]
+      },
+      "properties": {
+        "placename": "Hamburg",
+        "geonames_uri": "http://sws.geonames.org/2911298",
+        "num_works": 1
+      },
+      "records": [
+        {
+          "id": "AC09874837",
+          "year": 1817,
+          "markers": [
+            "TravelogueD19",
+            "Asien",
+            "Orient"
+          ],
+          "tags": [
+            "publication_place"
+          ],
+          "all_places": [
+            "Hamburg"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.4373,
+          50.9872
+        ]
+      },
+      "properties": {
+        "placename": "Altenburg",
+        "geonames_uri": "http://sws.geonames.org/2957773",
+        "num_works": 1
+      },
+      "records": [
+        {
+          "id": "AC10057596",
+          "year": 1800,
+          "markers": [
+            "TravelogueD19",
+            "Asien",
+            "Orient"
+          ],
+          "tags": [
+            "publication_place"
+          ],
+          "all_places": [
+            "Altenburg"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.41053,
+          52.52437
+        ]
+      },
+      "properties": {
+        "placename": "Berlin",
+        "geonames_uri": "http://sws.geonames.org/2950159",
+        "num_works": 6
+      },
+      "records": [
+        {
+          "id": "AC13290216",
+          "year": 1801,
+          "markers": [
+            "TravelogueD19",
+            "Asien",
+            "Europa",
+            "Orient"
+          ],
+          "tags": [
+            "publication_place"
+          ],
+          "all_places": [
+            "Berlin"
+          ]
+        },
+        {
+          "id": "AC13290218",
+          "year": 1803,
+          "markers": [
+            "TravelogueD19",
+            "Orient",
+            "Afrika"
+          ],
+          "tags": [
+            "publication_place"
+          ],
+          "all_places": [
+            "Berlin"
+          ]
+        },
+        {
+          "id": "AC04003236",
+          "year": 1803,
+          "markers": [
+            "TravelogueD19",
+            "Afrika",
+            "Orient"
+          ],
+          "tags": [
+            "publication_place"
+          ],
+          "all_places": [
+            "Berlin"
+          ]
+        },
+        {
+          "id": "AC13041620",
+          "year": 1805,
+          "markers": [
+            "TravelogueD19",
+            "Europa",
+            "Orient"
+          ],
+          "tags": [
+            "publication_place"
+          ],
+          "all_places": [
+            "Berlin"
+          ]
+        },
+        {
+          "id": "AC03215803",
+          "year": 1815,
+          "markers": [
+            "TravelogueD19",
+            "Asien",
+            "Europa",
+            "Orient"
+          ],
+          "tags": [
+            "publication_place"
+          ],
+          "all_places": [
+            "Berlin"
+          ]
+        },
+        {
+          "id": "AC03215799",
+          "year": 1815,
+          "markers": [
+            "TravelogueD19",
+            "Asien",
+            "Europa",
+            "Orient"
+          ],
+          "tags": [
+            "publication_place"
+          ],
+          "all_places": [
+            "Berlin"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.31413,
+          59.93863
+        ]
+      },
+      "properties": {
+        "placename": "Sankt Petersburg",
+        "geonames_uri": "http://sws.geonames.org/498817",
+        "num_works": 3
+      },
+      "records": [
+        {
+          "id": "AC13063711",
+          "year": 1803,
+          "markers": [
+            "TravelogueD19",
+            "Europa",
+            "Asien",
+            "Orient"
+          ],
+          "tags": [
+            "publication_place",
+            "printing_place"
+          ],
+          "all_places": [
+            "Sankt Petersburg"
+          ]
+        },
+        {
+          "id": "AC13063717",
+          "year": 1803,
+          "markers": [
+            "TravelogueD19",
+            "Asien",
+            "Orient"
+          ],
+          "tags": [
+            "publication_place",
+            "printing_place"
+          ],
+          "all_places": [
+            "Sankt Petersburg"
+          ]
+        },
+        {
+          "id": "AC13063730",
+          "year": 1803,
+          "markers": [
+            "TravelogueD19",
+            "Europa",
+            "Asien",
+            "Orient"
+          ],
+          "tags": [
+            "publication_place",
+            "printing_place"
+          ],
+          "all_places": [
+            "Sankt Petersburg"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.60796,
+          49.19522
+        ]
+      },
+      "properties": {
+        "placename": "Brünn",
+        "geonames_uri": "http://sws.geonames.org/3078610",
+        "num_works": 1
+      },
+      "records": [
+        {
+          "id": "AC10030914",
+          "year": 1820,
+          "markers": [
+            "TravelogueD19",
+            "Asien",
+            "Orient"
+          ],
+          "tags": [
+            "publication_place",
+            "printing_place"
+          ],
+          "all_places": [
+            "Brünn"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.1619,
+          51.21006
+        ]
+      },
+      "properties": {
+        "placename": "Liegnitz",
+        "geonames_uri": "http://sws.geonames.org/3093692",
+        "num_works": 1
+      },
+      "records": [
+        {
+          "id": "AC08577073",
+          "year": 1801,
+          "markers": [
+            "TravelogueD19",
+            "Asien",
+            "Europa",
+            "Orient"
+          ],
+          "tags": [
+            "publication_place"
+          ],
+          "all_places": [
+            "Liegnitz",
+            "Leipzig"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.70193,
+          50.94823
+        ]
+      },
+      "properties": {
+        "placename": "Gotha",
+        "geonames_uri": "http://sws.geonames.org/2918752",
+        "num_works": 1
+      },
+      "records": [
+        {
+          "id": "AC10356100",
+          "year": 1801,
+          "markers": [
+            "TravelogueD19",
+            "Europa",
+            "Asien",
+            "Orient"
+          ],
+          "tags": [
+            "publication_place"
+          ],
+          "all_places": [
+            "Gotha"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.51095,
+          54.70649
+        ]
+      },
+      "properties": {
+        "placename": "Königsberg",
+        "geonames_uri": "http://sws.geonames.org/554234",
+        "num_works": 1
+      },
+      "records": [
+        {
+          "id": "AC10274099",
+          "year": 1801,
+          "markers": [
+            "TravelogueD19",
+            "Orient",
+            "Asien",
+            "Europa"
+          ],
+          "tags": [
+            "publication_place"
+          ],
+          "all_places": [
+            "Königsberg",
+            "Halle (Saale)"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.32903,
+          50.9803
+        ]
+      },
+      "properties": {
+        "placename": "Weimar",
+        "geonames_uri": "http://sws.geonames.org/2812482",
+        "num_works": 10
+      },
+      "records": [
+        {
+          "id": "AC09969390",
+          "year": 1802,
+          "markers": [
+            "TravelogueD19",
+            "Afrika",
+            "Orient"
+          ],
+          "tags": [
+            "publication_place",
+            "printing_place"
+          ],
+          "all_places": [
+            "Weimar"
+          ]
+        },
+        {
+          "id": "AC08421239",
+          "year": 1803,
+          "markers": [
+            "TravelogueD19",
+            "Asien",
+            "Nordamerika",
+            "Europa",
+            "Orient"
+          ],
+          "tags": [
+            "publication_place",
+            "printing_place"
+          ],
+          "all_places": [
+            "Weimar"
+          ]
+        },
+        {
+          "id": "AC08421083",
+          "year": 1804,
+          "markers": [
+            "TravelogueD19",
+            "Asien",
+            "Orient"
+          ],
+          "tags": [
+            "publication_place",
+            "printing_place"
+          ],
+          "all_places": [
+            "Weimar"
+          ]
+        },
+        {
+          "id": "AC15247613",
+          "year": 1804,
+          "markers": [
+            "TravelogueD19",
+            "Asien",
+            "Orient"
+          ],
+          "tags": [
+            "publication_place",
+            "printing_place"
+          ],
+          "all_places": [
+            "Weimar"
+          ]
+        },
+        {
+          "id": "AC09883827",
+          "year": 1804,
+          "markers": [
+            "TravelogueD19",
+            "Orient",
+            "Afrika"
+          ],
+          "tags": [
+            "publication_place",
+            "printing_place"
+          ],
+          "all_places": [
+            "Weimar"
+          ]
+        },
+        {
+          "id": "AC08426287",
+          "year": 1811,
+          "markers": [
+            "TravelogueD19",
+            "Asien",
+            "Afrika",
+            "Orient"
+          ],
+          "tags": [
+            "publication_place",
+            "printing_place"
+          ],
+          "all_places": [
+            "Weimar"
+          ]
+        },
+        {
+          "id": "AC15247369",
+          "year": 1811,
+          "markers": [
+            "TravelogueD19",
+            "Asien",
+            "Afrika",
+            "Orient"
+          ],
+          "tags": [
+            "publication_place",
+            "printing_place"
+          ],
+          "all_places": [
+            "Weimar"
+          ]
+        },
+        {
+          "id": "AC10059129",
+          "year": 1818,
+          "markers": [
+            "TravelogueD19",
+            "Afrika",
+            "Orient"
+          ],
+          "tags": [
+            "publication_place",
+            "printing_place"
+          ],
+          "all_places": [
+            "Weimar"
+          ]
+        },
+        {
+          "id": "AC10030913",
+          "year": 1819,
+          "markers": [
+            "TravelogueD19",
+            "Asien",
+            "Orient"
+          ],
+          "tags": [
+            "publication_place",
+            "printing_place"
+          ],
+          "all_places": [
+            "Weimar"
+          ]
+        },
+        {
+          "id": "AC08433051",
+          "year": 1820,
+          "markers": [
+            "TravelogueD19",
+            "Asien",
+            "Orient"
+          ],
+          "tags": [
+            "publication_place",
+            "printing_place"
+          ],
+          "all_places": [
+            "Weimar"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.18666,
+          50.8634
+        ]
+      },
+      "properties": {
+        "placename": "Ronneburg",
+        "geonames_uri": "http://sws.geonames.org/2845229",
+        "num_works": 1
+      },
+      "records": [
+        {
+          "id": "AC03263837",
+          "year": 1802,
+          "markers": [
+            "TravelogueD19",
+            "Asien",
+            "Orient"
+          ],
+          "tags": [
+            "publication_place"
+          ],
+          "all_places": [
+            "Ronneburg",
+            "Eisenberg"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.90207,
+          50.9686
+        ]
+      },
+      "properties": {
+        "placename": "Eisenberg",
+        "geonames_uri": "http://sws.geonames.org/2931521",
+        "num_works": 1
+      },
+      "records": [
+        {
+          "id": "AC03263837",
+          "year": 1802,
+          "markers": [
+            "TravelogueD19",
+            "Asien",
+            "Orient"
+          ],
+          "tags": [
+            "printing_place"
+          ],
+          "all_places": [
+            "Ronneburg",
+            "Eisenberg"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.70422,
+          50.93336
+        ]
+      },
+      "properties": {
+        "placename": "Penig",
+        "geonames_uri": "http://sws.geonames.org/2854967",
+        "num_works": 3
+      },
+      "records": [
+        {
+          "id": "AC11590092",
+          "year": 1804,
+          "markers": [
+            "TravelogueD19",
+            "Europa",
+            "Asien",
+            "Orient"
+          ],
+          "tags": [
+            "publication_place"
+          ],
+          "all_places": [
+            "Penig",
+            "Chemnitz"
+          ]
+        },
+        {
+          "id": "AC11590096",
+          "year": 1804,
+          "markers": [
+            "TravelogueD19",
+            "Asien",
+            "Europa",
+            "Orient"
+          ],
+          "tags": [
+            "publication_place"
+          ],
+          "all_places": [
+            "Penig",
+            "Chemnitz"
+          ]
+        },
+        {
+          "id": "AC11590102",
+          "year": 1804,
+          "markers": [
+            "TravelogueD19",
+            "Europa",
+            "Asien",
+            "Orient"
+          ],
+          "tags": [
+            "publication_place"
+          ],
+          "all_places": [
+            "Penig",
+            "Chemnitz"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.92922,
+          50.8357
+        ]
+      },
+      "properties": {
+        "placename": "Chemnitz",
+        "geonames_uri": "http://sws.geonames.org/2940132",
+        "num_works": 3
+      },
+      "records": [
+        {
+          "id": "AC11590092",
+          "year": 1804,
+          "markers": [
+            "TravelogueD19",
+            "Europa",
+            "Asien",
+            "Orient"
+          ],
+          "tags": [
+            "printing_place"
+          ],
+          "all_places": [
+            "Penig",
+            "Chemnitz"
+          ]
+        },
+        {
+          "id": "AC11590096",
+          "year": 1804,
+          "markers": [
+            "TravelogueD19",
+            "Asien",
+            "Europa",
+            "Orient"
+          ],
+          "tags": [
+            "printing_place"
+          ],
+          "all_places": [
+            "Penig",
+            "Chemnitz"
+          ]
+        },
+        {
+          "id": "AC11590102",
+          "year": 1804,
+          "markers": [
+            "TravelogueD19",
+            "Europa",
+            "Asien",
+            "Orient"
+          ],
+          "tags": [
+            "printing_place"
+          ],
+          "all_places": [
+            "Penig",
+            "Chemnitz"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.04045,
+          47.49835
+        ]
+      },
+      "properties": {
+        "placename": "Budapest",
+        "geonames_uri": "http://sws.geonames.org/3054643",
+        "num_works": 2
+      },
+      "records": [
+        {
+          "id": "AC09685610",
+          "year": 1810,
+          "markers": [
+            "TravelogueD19",
+            "Asien",
+            "Europa",
+            "Orient"
+          ],
+          "tags": [
+            "publication_place"
+          ],
+          "all_places": [
+            "Budapest"
+          ]
+        },
+        {
+          "id": "AC03300484",
+          "year": 1817,
+          "markers": [
+            "TravelogueD19",
+            "Asien",
+            "Europa",
+            "Orient"
+          ],
+          "tags": [
+            "publication_place"
+          ],
+          "all_places": [
+            "Budapest"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.40444,
+          49.00937
+        ]
+      },
+      "properties": {
+        "placename": "Karlsruhe",
+        "geonames_uri": "http://sws.geonames.org/2892794",
+        "num_works": 1
+      },
+      "records": [
+        {
+          "id": "AC09689532",
+          "year": 1811,
+          "markers": [
+            "TravelogueD19",
+            "Asien",
+            "Orient"
+          ],
+          "tags": [
+            "publication_place",
+            "printing_place"
+          ],
+          "all_places": [
+            "Karlsruhe"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.16179,
+          48.52961
+        ]
+      },
+      "properties": {
+        "placename": "Landshut",
+        "geonames_uri": "http://sws.geonames.org/2881485",
+        "num_works": 1
+      },
+      "records": [
+        {
+          "id": "AC09922282",
+          "year": 1812,
+          "markers": [
+            "TravelogueD19",
+            "Europa",
+            "Orient"
+          ],
+          "tags": [
+            "publication_place",
+            "printing_place"
+          ],
+          "all_places": [
+            "Landshut"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.37477,
+          47.42391
+        ]
+      },
+      "properties": {
+        "placename": "Sankt Gallen",
+        "geonames_uri": "http://sws.geonames.org/2658822",
+        "num_works": 4
+      },
+      "records": [
+        {
+          "id": "AC14501703",
+          "year": 1815,
+          "markers": [
+            "TravelogueD19",
+            "Asien",
+            "Europa",
+            "Afrika",
+            "Orient"
+          ],
+          "tags": [
+            "publication_place"
+          ],
+          "all_places": [
+            "Sankt Gallen"
+          ]
+        },
+        {
+          "id": "AC14501705",
+          "year": 1815,
+          "markers": [
+            "TravelogueD19",
+            "Asien",
+            "Orient"
+          ],
+          "tags": [
+            "publication_place"
+          ],
+          "all_places": [
+            "Sankt Gallen"
+          ]
+        },
+        {
+          "id": "AC14501706",
+          "year": 1815,
+          "markers": [
+            "TravelogueD19",
+            "Asien",
+            "Europa",
+            "Orient"
+          ],
+          "tags": [
+            "publication_place"
+          ],
+          "all_places": [
+            "Sankt Gallen"
+          ]
+        },
+        {
+          "id": "AC10109932",
+          "year": 1820,
+          "markers": [
+            "TravelogueD19",
+            "Europa",
+            "Asien",
+            "Orient"
+          ],
+          "tags": [
+            "publication_place"
+          ],
+          "all_places": [
+            "Sankt Gallen"
+          ]
+        }
+      ]
+    }
+  ]
+}

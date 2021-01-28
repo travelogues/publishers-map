@@ -1,0 +1,4070 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.07752,
+          49.45421
+        ]
+      },
+      "properties": {
+        "placename": "Nürnberg",
+        "geonames_uri": "http://sws.geonames.org/2861650",
+        "num_works": 28
+      },
+      "records": [
+        {
+          "id": "AC09974249",
+          "year": 1602,
+          "markers": [
+            "TravelogueD17",
+            "Arktis",
+            "Europa",
+            "Asien"
+          ],
+          "tags": [
+            "publication_place"
+          ],
+          "all_places": [
+            "Nürnberg"
+          ]
+        },
+        {
+          "id": "AC09974255",
+          "year": 1602,
+          "markers": [
+            "TravelogueD17",
+            "Südamerika"
+          ],
+          "tags": [
+            "publication_place"
+          ],
+          "all_places": [
+            "Nürnberg"
+          ]
+        },
+        {
+          "id": "AC09705781",
+          "year": 1601,
+          "markers": [
+            "TravelogueD17",
+            "Südamerika"
+          ],
+          "tags": [
+            "publication_place",
+            "printing_place"
+          ],
+          "all_places": [
+            "Nürnberg"
+          ]
+        },
+        {
+          "id": "AC09705661",
+          "year": 1603,
+          "markers": [
+            "TravelogueD17",
+            "Südamerika"
+          ],
+          "tags": [
+            "publication_place",
+            "printing_place"
+          ],
+          "all_places": [
+            "Nürnberg"
+          ]
+        },
+        {
+          "id": "AC09974250",
+          "year": 1603,
+          "markers": [
+            "TravelogueD17",
+            "Europa",
+            "Afrika",
+            "Südamerika",
+            "Nordamerika",
+            "Asien",
+            "Ozeanien"
+          ],
+          "tags": [
+            "publication_place",
+            "printing_place"
+          ],
+          "all_places": [
+            "Nürnberg"
+          ]
+        },
+        {
+          "id": "AC15257577",
+          "year": 1681,
+          "markers": [
+            "TravelogueD17",
+            "Asien",
+            "Europa",
+            "Orient"
+          ],
+          "tags": [
+            "publication_place",
+            "printing_place"
+          ],
+          "all_places": [
+            "Nürnberg"
+          ]
+        },
+        {
+          "id": "AC15256899",
+          "year": 1681,
+          "markers": [
+            "TravelogueD17",
+            "Asien",
+            "Orient"
+          ],
+          "tags": [
+            "publication_place",
+            "printing_place"
+          ],
+          "all_places": [
+            "Nürnberg"
+          ]
+        },
+        {
+          "id": "AC15256872",
+          "year": 1681,
+          "markers": [
+            "TravelogueD17",
+            "Asien",
+            "Orient"
+          ],
+          "tags": [
+            "publication_place",
+            "printing_place"
+          ],
+          "all_places": [
+            "Nürnberg"
+          ]
+        },
+        {
+          "id": "AC07795683",
+          "year": 1613,
+          "markers": [
+            "TravelogueD17",
+            "Afrika",
+            "Asien",
+            "Europa",
+            "Orient"
+          ],
+          "tags": [
+            "publication_place",
+            "printing_place"
+          ],
+          "all_places": [
+            "Nürnberg"
+          ]
+        },
+        {
+          "id": "AC07794617",
+          "year": 1672,
+          "markers": [
+            "TravelogueD17",
+            "Asien"
+          ],
+          "tags": [
+            "publication_place",
+            "printing_place"
+          ],
+          "all_places": [
+            "Nürnberg"
+          ]
+        },
+        {
+          "id": "AC03424711",
+          "year": 1664,
+          "markers": [
+            "TravelogueD17",
+            "Europa"
+          ],
+          "tags": [
+            "publication_place",
+            "printing_place"
+          ],
+          "all_places": [
+            "Nürnberg"
+          ]
+        },
+        {
+          "id": "AC09729816",
+          "year": 1681,
+          "markers": [
+            "TravelogueD17",
+            "Nordamerika",
+            "Südamerika"
+          ],
+          "tags": [
+            "publication_place",
+            "printing_place"
+          ],
+          "all_places": [
+            "Nürnberg"
+          ]
+        },
+        {
+          "id": "AC09741211",
+          "year": 1686,
+          "markers": [
+            "TravelogueD17",
+            "Europa"
+          ],
+          "tags": [
+            "publication_place",
+            "printing_place"
+          ],
+          "all_places": [
+            "Nürnberg"
+          ]
+        },
+        {
+          "id": "AC09750783",
+          "year": 1664,
+          "markers": [
+            "TravelogueD17",
+            "Asien",
+            "Europa",
+            "Orient"
+          ],
+          "tags": [
+            "publication_place",
+            "printing_place"
+          ],
+          "all_places": [
+            "Nürnberg"
+          ]
+        },
+        {
+          "id": "AC09807605",
+          "year": 1676,
+          "markers": [
+            "TravelogueD17",
+            "Orient",
+            "Afrika",
+            "Asien"
+          ],
+          "tags": [
+            "publication_place",
+            "printing_place"
+          ],
+          "all_places": [
+            "Nürnberg"
+          ]
+        },
+        {
+          "id": "AC09934618",
+          "year": 1678,
+          "markers": [
+            "TravelogueD17",
+            "Orient",
+            "Europa",
+            "Asien"
+          ],
+          "tags": [
+            "publication_place",
+            "printing_place"
+          ],
+          "all_places": [
+            "Nürnberg"
+          ]
+        },
+        {
+          "id": "AC09947694",
+          "year": 1689,
+          "markers": [
+            "TravelogueD17",
+            "Nordamerika"
+          ],
+          "tags": [
+            "publication_place"
+          ],
+          "all_places": [
+            "Nürnberg"
+          ]
+        },
+        {
+          "id": "AC09949658",
+          "year": 1678,
+          "markers": [
+            "TravelogueD17",
+            "Europa"
+          ],
+          "tags": [
+            "publication_place"
+          ],
+          "all_places": [
+            "Nürnberg"
+          ]
+        },
+        {
+          "id": "AC09955533",
+          "year": 1670,
+          "markers": [
+            "TravelogueD17",
+            "Afrika",
+            "Orient"
+          ],
+          "tags": [
+            "publication_place",
+            "printing_place"
+          ],
+          "all_places": [
+            "Nürnberg"
+          ]
+        },
+        {
+          "id": "AC10143407",
+          "year": 1675,
+          "markers": [
+            "TravelogueD17",
+            "Afrika"
+          ],
+          "tags": [
+            "publication_place"
+          ],
+          "all_places": [
+            "Nürnberg"
+          ]
+        },
+        {
+          "id": "AC10222520",
+          "year": 1666,
+          "markers": [
+            "TravelogueD17",
+            "Europa"
+          ],
+          "tags": [
+            "publication_place",
+            "printing_place"
+          ],
+          "all_places": [
+            "Nürnberg"
+          ]
+        },
+        {
+          "id": "AC10239953",
+          "year": 1659,
+          "markers": [
+            "TravelogueD17",
+            "Asien",
+            "Europa",
+            "Afrika",
+            "Orient"
+          ],
+          "tags": [
+            "publication_place",
+            "printing_place"
+          ],
+          "all_places": [
+            "Nürnberg"
+          ]
+        },
+        {
+          "id": "AC10307407",
+          "year": 1608,
+          "markers": [
+            "TravelogueD17",
+            "Orient",
+            "Europa",
+            "Asien"
+          ],
+          "tags": [
+            "publication_place",
+            "printing_place"
+          ],
+          "all_places": [
+            "Nürnberg"
+          ]
+        },
+        {
+          "id": "AC10307408",
+          "year": 1613,
+          "markers": [
+            "TravelogueD17",
+            "Asien",
+            "Europa",
+            "Orient"
+          ],
+          "tags": [
+            "publication_place",
+            "printing_place"
+          ],
+          "all_places": [
+            "Nürnberg"
+          ]
+        },
+        {
+          "id": "AC10418216",
+          "year": 1679,
+          "markers": [
+            "TravelogueD17",
+            "Arktis",
+            "Europa",
+            "Asien",
+            "Nordamerika"
+          ],
+          "tags": [
+            "publication_place"
+          ],
+          "all_places": [
+            "Nürnberg"
+          ]
+        },
+        {
+          "id": "AC10471323",
+          "year": 1669,
+          "markers": [
+            "TravelogueD17",
+            "Südamerika"
+          ],
+          "tags": [
+            "publication_place",
+            "printing_place"
+          ],
+          "all_places": [
+            "Nürnberg"
+          ]
+        },
+        {
+          "id": "AC14493767",
+          "year": 1681,
+          "markers": [
+            "TravelogueD17",
+            "Europa",
+            "Asien",
+            "Orient"
+          ],
+          "tags": [
+            "publication_place",
+            "printing_place"
+          ],
+          "all_places": [
+            "Nürnberg"
+          ]
+        },
+        {
+          "id": "AC14493773",
+          "year": 1681,
+          "markers": [
+            "TravelogueD17",
+            "Europa",
+            "Asien",
+            "Orient"
+          ],
+          "tags": [
+            "publication_place",
+            "printing_place"
+          ],
+          "all_places": [
+            "Nürnberg"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.68417,
+          50.11552
+        ]
+      },
+      "properties": {
+        "placename": "Frankfurt am Main",
+        "geonames_uri": "http://sws.geonames.org/2925533",
+        "num_works": 69
+      },
+      "records": [
+        {
+          "id": "AC09974252",
+          "year": 1625,
+          "markers": [
+            "TravelogueD17",
+            "Asien"
+          ],
+          "tags": [
+            "publication_place",
+            "printing_place"
+          ],
+          "all_places": [
+            "Frankfurt am Main"
+          ]
+        },
+        {
+          "id": "AC09974251",
+          "year": 1605,
+          "markers": [
+            "TravelogueD17",
+            "Asien",
+            "Afrika"
+          ],
+          "tags": [
+            "publication_place"
+          ],
+          "all_places": [
+            "Frankfurt am Main"
+          ]
+        },
+        {
+          "id": "AC13775934",
+          "year": 1615,
+          "markers": [
+            "TravelogueD17",
+            "Asien",
+            "Afrika"
+          ],
+          "tags": [
+            "publication_place"
+          ],
+          "all_places": [
+            "Frankfurt am Main"
+          ]
+        },
+        {
+          "id": "AC13776361",
+          "year": 1660,
+          "markers": [
+            "TravelogueD17",
+            "Europa",
+            "Arktis",
+            "Asien"
+          ],
+          "tags": [
+            "publication_place"
+          ],
+          "all_places": [
+            "Frankfurt am Main"
+          ]
+        },
+        {
+          "id": "AC13779145",
+          "year": 1612,
+          "markers": [
+            "TravelogueD17",
+            "Südamerika"
+          ],
+          "tags": [
+            "publication_place",
+            "printing_place"
+          ],
+          "all_places": [
+            "Frankfurt am Main"
+          ]
+        },
+        {
+          "id": "AC13779622",
+          "year": 1663,
+          "markers": [
+            "TravelogueD17",
+            "Südamerika"
+          ],
+          "tags": [
+            "publication_place"
+          ],
+          "all_places": [
+            "Frankfurt am Main"
+          ]
+        },
+        {
+          "id": "AC05861732",
+          "year": 1626,
+          "markers": [
+            "TravelogueD17",
+            "Europa",
+            "Afrika",
+            "Südamerika",
+            "Nordamerika",
+            "Asien",
+            "Ozeanien"
+          ],
+          "tags": [
+            "publication_place",
+            "printing_place"
+          ],
+          "all_places": [
+            "Frankfurt am Main"
+          ]
+        },
+        {
+          "id": "AC09974256",
+          "year": 1606,
+          "markers": [
+            "TravelogueD17",
+            "Afrika"
+          ],
+          "tags": [
+            "publication_place",
+            "printing_place"
+          ],
+          "all_places": [
+            "Frankfurt am Main"
+          ]
+        },
+        {
+          "id": "AC13779656",
+          "year": 1624,
+          "markers": [
+            "TravelogueD17",
+            "Afrika"
+          ],
+          "tags": [
+            "publication_place",
+            "printing_place"
+          ],
+          "all_places": [
+            "Frankfurt am Main"
+          ]
+        },
+        {
+          "id": "AC11093658",
+          "year": 1606,
+          "markers": [
+            "TravelogueD17",
+            "Asien"
+          ],
+          "tags": [
+            "publication_place",
+            "printing_place"
+          ],
+          "all_places": [
+            "Frankfurt am Main"
+          ]
+        },
+        {
+          "id": "AC11093681",
+          "year": 1606,
+          "markers": [
+            "TravelogueD17",
+            "Asien"
+          ],
+          "tags": [
+            "publication_place",
+            "printing_place"
+          ],
+          "all_places": [
+            "Frankfurt am Main"
+          ]
+        },
+        {
+          "id": "AC05859839",
+          "year": 1608,
+          "markers": [
+            "TravelogueD17",
+            "Asien"
+          ],
+          "tags": [
+            "publication_place",
+            "printing_place"
+          ],
+          "all_places": [
+            "Frankfurt am Main"
+          ]
+        },
+        {
+          "id": "AC13780349",
+          "year": 1640,
+          "markers": [
+            "TravelogueD17",
+            "Asien"
+          ],
+          "tags": [
+            "publication_place"
+          ],
+          "all_places": [
+            "Frankfurt am Main"
+          ]
+        },
+        {
+          "id": "AC11093711",
+          "year": 1612,
+          "markers": [
+            "TravelogueD17",
+            "Asien",
+            "Afrika"
+          ],
+          "tags": [
+            "publication_place",
+            "printing_place"
+          ],
+          "all_places": [
+            "Frankfurt am Main"
+          ]
+        },
+        {
+          "id": "AC05859790",
+          "year": 1606,
+          "markers": [
+            "TravelogueD17",
+            "Asien",
+            "Ozeanien"
+          ],
+          "tags": [
+            "publication_place",
+            "printing_place"
+          ],
+          "all_places": [
+            "Frankfurt am Main"
+          ]
+        },
+        {
+          "id": "AC05859864",
+          "year": 1612,
+          "markers": [
+            "TravelogueD17",
+            "Asien",
+            "Ozeanien"
+          ],
+          "tags": [
+            "publication_place",
+            "printing_place"
+          ],
+          "all_places": [
+            "Frankfurt am Main"
+          ]
+        },
+        {
+          "id": "AC06602256",
+          "year": 1608,
+          "markers": [
+            "TravelogueD17",
+            "Afrika",
+            "Asien"
+          ],
+          "tags": [
+            "publication_place",
+            "printing_place"
+          ],
+          "all_places": [
+            "Frankfurt am Main"
+          ]
+        },
+        {
+          "id": "AC05861582",
+          "year": 1613,
+          "markers": [
+            "TravelogueD17",
+            "Afrika",
+            "Asien"
+          ],
+          "tags": [
+            "publication_place",
+            "printing_place"
+          ],
+          "all_places": [
+            "Frankfurt am Main"
+          ]
+        },
+        {
+          "id": "AC05861593",
+          "year": 1612,
+          "markers": [
+            "TravelogueD17",
+            "Afrika",
+            "Asien"
+          ],
+          "tags": [
+            "publication_place",
+            "printing_place"
+          ],
+          "all_places": [
+            "Frankfurt am Main"
+          ]
+        },
+        {
+          "id": "AC13795358",
+          "year": 1623,
+          "markers": [
+            "TravelogueD17",
+            "Asien",
+            "Afrika"
+          ],
+          "tags": [
+            "publication_place",
+            "printing_place"
+          ],
+          "all_places": [
+            "Frankfurt am Main"
+          ]
+        },
+        {
+          "id": "AC05861612",
+          "year": 1613,
+          "markers": [
+            "TravelogueD17",
+            "Afrika",
+            "Asien"
+          ],
+          "tags": [
+            "publication_place",
+            "printing_place"
+          ],
+          "all_places": [
+            "Frankfurt am Main"
+          ]
+        },
+        {
+          "id": "AC05861699",
+          "year": 1617,
+          "markers": [
+            "TravelogueD17",
+            "Nordamerika"
+          ],
+          "tags": [
+            "publication_place",
+            "printing_place"
+          ],
+          "all_places": [
+            "Frankfurt am Main"
+          ]
+        },
+        {
+          "id": "AC13796373",
+          "year": 1628,
+          "markers": [
+            "TravelogueD17",
+            "Nordamerika"
+          ],
+          "tags": [
+            "publication_place",
+            "printing_place"
+          ],
+          "all_places": [
+            "Frankfurt am Main"
+          ]
+        },
+        {
+          "id": "AC13797150",
+          "year": 1648,
+          "markers": [
+            "TravelogueD17",
+            "Orient",
+            "Asien"
+          ],
+          "tags": [
+            "publication_place"
+          ],
+          "all_places": [
+            "Frankfurt am Main"
+          ]
+        },
+        {
+          "id": "AC05861716",
+          "year": 1619,
+          "markers": [
+            "TravelogueD17",
+            "Afrika",
+            "Asien",
+            "Südamerika",
+            "Ozeanien"
+          ],
+          "tags": [
+            "publication_place",
+            "printing_place"
+          ],
+          "all_places": [
+            "Frankfurt am Main"
+          ]
+        },
+        {
+          "id": "AC14465876",
+          "year": 1620,
+          "markers": [
+            "TravelogueD17",
+            "Asien",
+            "Nordamerika",
+            "Südamerika",
+            "Afrika",
+            "Ozeanien"
+          ],
+          "tags": [
+            "publication_place",
+            "printing_place"
+          ],
+          "all_places": [
+            "Frankfurt am Main"
+          ]
+        },
+        {
+          "id": "AC14465945",
+          "year": 1623,
+          "markers": [
+            "TravelogueD17",
+            "Südamerika",
+            "Nordamerika",
+            "Asien",
+            "Ozeanien"
+          ],
+          "tags": [
+            "publication_place",
+            "printing_place"
+          ],
+          "all_places": [
+            "Frankfurt am Main"
+          ]
+        },
+        {
+          "id": "AC14470363",
+          "year": 1626,
+          "markers": [
+            "TravelogueD17",
+            "Orient",
+            "Afrika",
+            "Europa",
+            "Asien"
+          ],
+          "tags": [
+            "publication_place",
+            "printing_place"
+          ],
+          "all_places": [
+            "Frankfurt am Main"
+          ]
+        },
+        {
+          "id": "AC14470439",
+          "year": 1629,
+          "markers": [
+            "TravelogueD17",
+            "Nordamerika"
+          ],
+          "tags": [
+            "publication_place",
+            "printing_place"
+          ],
+          "all_places": [
+            "Frankfurt am Main"
+          ]
+        },
+        {
+          "id": "AC14470845",
+          "year": 1629,
+          "markers": [
+            "TravelogueD17",
+            "Südamerika",
+            "Nordamerika"
+          ],
+          "tags": [
+            "publication_place",
+            "printing_place"
+          ],
+          "all_places": [
+            "Frankfurt am Main"
+          ]
+        },
+        {
+          "id": "AC14470954",
+          "year": 1630,
+          "markers": [
+            "TravelogueD17",
+            "Südamerika",
+            "Asien",
+            "Ozeanien",
+            "Afrika"
+          ],
+          "tags": [
+            "publication_place",
+            "printing_place"
+          ],
+          "all_places": [
+            "Frankfurt am Main"
+          ]
+        },
+        {
+          "id": "AC14472243",
+          "year": 1632,
+          "markers": [
+            "TravelogueD17",
+            "Europa"
+          ],
+          "tags": [
+            "publication_place",
+            "printing_place"
+          ],
+          "all_places": [
+            "Frankfurt am Main"
+          ]
+        },
+        {
+          "id": "AC14472348",
+          "year": 1648,
+          "markers": [
+            "TravelogueD17",
+            "Arktis",
+            "Asien",
+            "Europa"
+          ],
+          "tags": [
+            "publication_place"
+          ],
+          "all_places": [
+            "Frankfurt am Main"
+          ]
+        },
+        {
+          "id": "AC14473154",
+          "year": 1649,
+          "markers": [
+            "TravelogueD17",
+            "Asien",
+            "Südamerika"
+          ],
+          "tags": [
+            "publication_place"
+          ],
+          "all_places": [
+            "Frankfurt am Main"
+          ]
+        },
+        {
+          "id": "AC14473230",
+          "year": 1650,
+          "markers": [
+            "TravelogueD17",
+            "Arktis",
+            "Europa",
+            "Nordamerika"
+          ],
+          "tags": [
+            "publication_place"
+          ],
+          "all_places": [
+            "Frankfurt am Main"
+          ]
+        },
+        {
+          "id": "AC09625867",
+          "year": 1603,
+          "markers": [
+            "TravelogueD17",
+            "Nordamerika"
+          ],
+          "tags": [
+            "publication_place",
+            "printing_place"
+          ],
+          "all_places": [
+            "Frankfurt am Main"
+          ]
+        },
+        {
+          "id": "AC09625879",
+          "year": 1624,
+          "markers": [
+            "TravelogueD17",
+            "Südamerika",
+            "Nordamerika",
+            "Asien"
+          ],
+          "tags": [
+            "publication_place",
+            "printing_place"
+          ],
+          "all_places": [
+            "Frankfurt am Main"
+          ]
+        },
+        {
+          "id": "AC11092682",
+          "year": 1601,
+          "markers": [
+            "TravelogueD17",
+            "Nordamerika",
+            "Südamerika",
+            "Asien"
+          ],
+          "tags": [
+            "publication_place",
+            "printing_place"
+          ],
+          "all_places": [
+            "Frankfurt am Main"
+          ]
+        },
+        {
+          "id": "AC11092815",
+          "year": 1619,
+          "markers": [
+            "TravelogueD17",
+            "Südamerika",
+            "Asien",
+            "Afrika",
+            "Ozeanien"
+          ],
+          "tags": [
+            "publication_place",
+            "printing_place"
+          ],
+          "all_places": [
+            "Frankfurt am Main"
+          ]
+        },
+        {
+          "id": "AC11092890",
+          "year": 1627,
+          "markers": [
+            "TravelogueD17",
+            "Nordamerika",
+            "Ozeanien",
+            "Südamerika"
+          ],
+          "tags": [
+            "publication_place",
+            "printing_place"
+          ],
+          "all_places": [
+            "Frankfurt am Main"
+          ]
+        },
+        {
+          "id": "AC11093192",
+          "year": 1625,
+          "markers": [
+            "TravelogueD17",
+            "Afrika",
+            "Asien",
+            "Europa",
+            "Orient"
+          ],
+          "tags": [
+            "publication_place",
+            "printing_place"
+          ],
+          "all_places": [
+            "Frankfurt am Main"
+          ]
+        },
+        {
+          "id": "AC11093472",
+          "year": 1600,
+          "markers": [
+            "TravelogueD17",
+            "Asien"
+          ],
+          "tags": [
+            "publication_place",
+            "printing_place"
+          ],
+          "all_places": [
+            "Frankfurt am Main"
+          ]
+        },
+        {
+          "id": "AC11093530",
+          "year": 1601,
+          "markers": [
+            "TravelogueD17",
+            "Asien",
+            "Afrika"
+          ],
+          "tags": [
+            "publication_place",
+            "printing_place"
+          ],
+          "all_places": [
+            "Frankfurt am Main"
+          ]
+        },
+        {
+          "id": "AC11093577",
+          "year": 1603,
+          "markers": [
+            "TravelogueD17",
+            "Afrika"
+          ],
+          "tags": [
+            "publication_place",
+            "printing_place"
+          ],
+          "all_places": [
+            "Frankfurt am Main"
+          ]
+        },
+        {
+          "id": "AC11093628",
+          "year": 1605,
+          "markers": [
+            "TravelogueD17",
+            "Orient",
+            "Asien",
+            "Afrika",
+            "Ozeanien"
+          ],
+          "tags": [
+            "publication_place",
+            "printing_place"
+          ],
+          "all_places": [
+            "Frankfurt am Main"
+          ]
+        },
+        {
+          "id": "AC11093749",
+          "year": 1613,
+          "markers": [
+            "TravelogueD17",
+            "Asien"
+          ],
+          "tags": [
+            "publication_place",
+            "printing_place"
+          ],
+          "all_places": [
+            "Frankfurt am Main"
+          ]
+        },
+        {
+          "id": "AC11095660",
+          "year": 1613,
+          "markers": [
+            "TravelogueD17",
+            "Asien",
+            "Ozeanien"
+          ],
+          "tags": [
+            "publication_place",
+            "printing_place"
+          ],
+          "all_places": [
+            "Frankfurt am Main"
+          ]
+        },
+        {
+          "id": "AC11095766",
+          "year": 1628,
+          "markers": [
+            "TravelogueD17",
+            "Asien",
+            "Südamerika",
+            "Afrika",
+            "Ozeanien"
+          ],
+          "tags": [
+            "publication_place",
+            "printing_place"
+          ],
+          "all_places": [
+            "Frankfurt am Main"
+          ]
+        },
+        {
+          "id": "AC11095780",
+          "year": 1628,
+          "markers": [
+            "TravelogueD17",
+            "Arktis",
+            "Nordamerika",
+            "Asien",
+            "Europa",
+            "Afrika"
+          ],
+          "tags": [
+            "publication_place",
+            "printing_place"
+          ],
+          "all_places": [
+            "Frankfurt am Main"
+          ]
+        },
+        {
+          "id": "AC05952353",
+          "year": 1604,
+          "markers": [
+            "TravelogueD17",
+            "Südamerika"
+          ],
+          "tags": [
+            "publication_place",
+            "printing_place"
+          ],
+          "all_places": [
+            "Frankfurt am Main"
+          ]
+        },
+        {
+          "id": "AC08553942",
+          "year": 1674,
+          "markers": [
+            "TravelogueD17",
+            "Asien",
+            "Europa",
+            "Orient"
+          ],
+          "tags": [
+            "publication_place"
+          ],
+          "all_places": [
+            "Frankfurt am Main"
+          ]
+        },
+        {
+          "id": "AC03958402",
+          "year": 1693,
+          "markers": [
+            "TravelogueD17",
+            "Afrika",
+            "Asien",
+            "Europa",
+            "Orient"
+          ],
+          "tags": [
+            "publication_place",
+            "printing_place"
+          ],
+          "all_places": [
+            "Frankfurt am Main"
+          ]
+        },
+        {
+          "id": "AC03958445",
+          "year": 1693,
+          "markers": [
+            "TravelogueD17",
+            "Afrika",
+            "Asien",
+            "Europa",
+            "Orient"
+          ],
+          "tags": [
+            "publication_place",
+            "printing_place"
+          ],
+          "all_places": [
+            "Frankfurt am Main"
+          ]
+        },
+        {
+          "id": "AC03958471",
+          "year": 1693,
+          "markers": [
+            "TravelogueD17",
+            "Asien"
+          ],
+          "tags": [
+            "publication_place",
+            "printing_place"
+          ],
+          "all_places": [
+            "Frankfurt am Main"
+          ]
+        },
+        {
+          "id": "AC07061072",
+          "year": 1617,
+          "markers": [
+            "TravelogueD17",
+            "Nordamerika",
+            "Südamerika"
+          ],
+          "tags": [
+            "publication_place",
+            "printing_place"
+          ],
+          "all_places": [
+            "Frankfurt am Main"
+          ]
+        },
+        {
+          "id": "AC08023877",
+          "year": 1602,
+          "markers": [
+            "TravelogueD17",
+            "Europa"
+          ],
+          "tags": [
+            "publication_place",
+            "printing_place"
+          ],
+          "all_places": [
+            "Frankfurt am Main"
+          ]
+        },
+        {
+          "id": "AC09695833",
+          "year": 1687,
+          "markers": [
+            "TravelogueD17",
+            "Asien",
+            "Europa",
+            "Orient"
+          ],
+          "tags": [
+            "publication_place",
+            "printing_place"
+          ],
+          "all_places": [
+            "Frankfurt am Main"
+          ]
+        },
+        {
+          "id": "AC09742560",
+          "year": 1667,
+          "markers": [
+            "TravelogueD17",
+            "Europa"
+          ],
+          "tags": [
+            "publication_place",
+            "printing_place"
+          ],
+          "all_places": [
+            "Frankfurt am Main"
+          ]
+        },
+        {
+          "id": "AC09772037",
+          "year": 1687,
+          "markers": [
+            "TravelogueD17",
+            "Asien"
+          ],
+          "tags": [
+            "publication_place"
+          ],
+          "all_places": [
+            "Frankfurt am Main"
+          ]
+        },
+        {
+          "id": "AC09846891",
+          "year": 1672,
+          "markers": [
+            "TravelogueD17",
+            "Europa"
+          ],
+          "tags": [
+            "publication_place",
+            "printing_place"
+          ],
+          "all_places": [
+            "Frankfurt am Main"
+          ]
+        },
+        {
+          "id": "AC10054033",
+          "year": 1673,
+          "markers": [
+            "TravelogueD17",
+            "Europa"
+          ],
+          "tags": [
+            "publication_place",
+            "printing_place"
+          ],
+          "all_places": [
+            "Frankfurt am Main"
+          ]
+        },
+        {
+          "id": "AC10196398",
+          "year": 1671,
+          "markers": [
+            "TravelogueD17",
+            "Europa",
+            "Asien",
+            "Orient"
+          ],
+          "tags": [
+            "publication_place",
+            "printing_place"
+          ],
+          "all_places": [
+            "Frankfurt am Main"
+          ]
+        },
+        {
+          "id": "AC10196399",
+          "year": 1673,
+          "markers": [
+            "TravelogueD17",
+            "Europa",
+            "Asien",
+            "Orient"
+          ],
+          "tags": [
+            "publication_place",
+            "printing_place"
+          ],
+          "all_places": [
+            "Frankfurt am Main"
+          ]
+        },
+        {
+          "id": "AC10282956",
+          "year": 1675,
+          "markers": [
+            "TravelogueD17",
+            "Europa"
+          ],
+          "tags": [
+            "publication_place",
+            "printing_place"
+          ],
+          "all_places": [
+            "Frankfurt am Main"
+          ]
+        },
+        {
+          "id": "AC09629629",
+          "year": 1609,
+          "markers": [
+            "TravelogueD17",
+            "Orient",
+            "Europa",
+            "Asien",
+            "Afrika"
+          ],
+          "tags": [
+            "publication_place",
+            "printing_place"
+          ],
+          "all_places": [
+            "Frankfurt am Main"
+          ]
+        },
+        {
+          "id": "AC09629630",
+          "year": 1609,
+          "markers": [
+            "TravelogueD17",
+            "Orient",
+            "Europa",
+            "Asien",
+            "Afrika"
+          ],
+          "tags": [
+            "publication_place",
+            "printing_place"
+          ],
+          "all_places": [
+            "Frankfurt am Main"
+          ]
+        },
+        {
+          "id": "AC06609073",
+          "year": 1699,
+          "markers": [
+            "TravelogueD17",
+            "Asien"
+          ],
+          "tags": [
+            "publication_place"
+          ],
+          "all_places": [
+            "Frankfurt am Main",
+            "Leipzig"
+          ]
+        },
+        {
+          "id": "AC06609076",
+          "year": 1699,
+          "markers": [
+            "TravelogueD17",
+            "Asien"
+          ],
+          "tags": [
+            "publication_place"
+          ],
+          "all_places": [
+            "Frankfurt am Main",
+            "Leipzig"
+          ]
+        },
+        {
+          "id": "AC07913036",
+          "year": 1640,
+          "markers": [
+            "TravelogueD17",
+            "Europa"
+          ],
+          "tags": [
+            "publication_place",
+            "printing_place"
+          ],
+          "all_places": [
+            "Frankfurt am Main"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.49527,
+          48.58153
+        ]
+      },
+      "properties": {
+        "placename": "Dillingen a.d. Donau",
+        "geonames_uri": "http://sws.geonames.org/2936974",
+        "num_works": 1
+      },
+      "records": [
+        {
+          "id": "AC10241038",
+          "year": 1601,
+          "markers": [
+            "TravelogueD17",
+            "Asien"
+          ],
+          "tags": [
+            "publication_place",
+            "printing_place"
+          ],
+          "all_places": [
+            "Dillingen a.d. Donau"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.57327,
+          47.55839
+        ]
+      },
+      "properties": {
+        "placename": "Basel",
+        "geonames_uri": "http://sws.geonames.org/2661604",
+        "num_works": 1
+      },
+      "records": [
+        {
+          "id": "AC09912310",
+          "year": 1609,
+          "markers": [
+            "TravelogueD17",
+            "Europa"
+          ],
+          "tags": [
+            "publication_place",
+            "printing_place"
+          ],
+          "all_places": [
+            "Basel"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.89851,
+          48.37154
+        ]
+      },
+      "properties": {
+        "placename": "Augsburg",
+        "geonames_uri": "http://sws.geonames.org/2954172",
+        "num_works": 8
+      },
+      "records": [
+        {
+          "id": "AC06021769",
+          "year": 1611,
+          "markers": [
+            "TravelogueD17",
+            "Asien"
+          ],
+          "tags": [
+            "publication_place",
+            "printing_place"
+          ],
+          "all_places": [
+            "Augsburg"
+          ]
+        },
+        {
+          "id": "AC09701368",
+          "year": 1620,
+          "markers": [
+            "TravelogueD17",
+            "Europa"
+          ],
+          "tags": [
+            "publication_place",
+            "printing_place"
+          ],
+          "all_places": [
+            "Augsburg"
+          ]
+        },
+        {
+          "id": "AC09832639",
+          "year": 1600,
+          "markers": [
+            "TravelogueD17",
+            "Europa",
+            "Afrika"
+          ],
+          "tags": [
+            "publication_place",
+            "printing_place"
+          ],
+          "all_places": [
+            "Augsburg"
+          ]
+        },
+        {
+          "id": "AC09921668",
+          "year": 1614,
+          "markers": [
+            "TravelogueD17",
+            "Asien",
+            "Afrika"
+          ],
+          "tags": [
+            "publication_place",
+            "printing_place"
+          ],
+          "all_places": [
+            "Augsburg"
+          ]
+        },
+        {
+          "id": "AC10225520",
+          "year": 1611,
+          "markers": [
+            "TravelogueD17",
+            "Ozeanien"
+          ],
+          "tags": [
+            "publication_place",
+            "printing_place"
+          ],
+          "all_places": [
+            "Augsburg"
+          ]
+        },
+        {
+          "id": "AC10241087",
+          "year": 1611,
+          "markers": [
+            "TravelogueD17",
+            "Asien",
+            "Nordamerika"
+          ],
+          "tags": [
+            "publication_place",
+            "printing_place"
+          ],
+          "all_places": [
+            "Augsburg"
+          ]
+        },
+        {
+          "id": "AC10241088",
+          "year": 1611,
+          "markers": [
+            "TravelogueD17",
+            "Asien",
+            "Nordamerika"
+          ],
+          "tags": [
+            "publication_place",
+            "printing_place"
+          ],
+          "all_places": [
+            "Augsburg"
+          ]
+        },
+        {
+          "id": "AC10471189",
+          "year": 1699,
+          "markers": [
+            "TravelogueD17",
+            "Asien",
+            "Europa",
+            "Afrika",
+            "Orient"
+          ],
+          "tags": [
+            "publication_place",
+            "printing_place"
+          ],
+          "all_places": [
+            "Augsburg"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.95,
+          50.93333
+        ]
+      },
+      "properties": {
+        "placename": "Köln",
+        "geonames_uri": "http://sws.geonames.org/2886242",
+        "num_works": 1
+      },
+      "records": [
+        {
+          "id": "AC10306082",
+          "year": 1606,
+          "markers": [
+            "TravelogueD17",
+            "Orient",
+            "Asien",
+            "Europa"
+          ],
+          "tags": [
+            "publication_place",
+            "printing_place"
+          ],
+          "all_places": [
+            "Köln"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.37208,
+          48.20849
+        ]
+      },
+      "properties": {
+        "placename": "Wien",
+        "geonames_uri": "http://sws.geonames.org/2761369",
+        "num_works": 5
+      },
+      "records": [
+        {
+          "id": "AC07551565",
+          "year": 1662,
+          "markers": [
+            "TravelogueD17",
+            "Asien",
+            "Europa",
+            "Orient"
+          ],
+          "tags": [
+            "publication_place",
+            "printing_place"
+          ],
+          "all_places": [
+            "Wien"
+          ]
+        },
+        {
+          "id": "AC09729557",
+          "year": 1633,
+          "markers": [
+            "TravelogueD17",
+            "Asien"
+          ],
+          "tags": [
+            "publication_place",
+            "printing_place"
+          ],
+          "all_places": [
+            "Wien"
+          ]
+        },
+        {
+          "id": "AC09924062",
+          "year": 1655,
+          "markers": [
+            "TravelogueD17",
+            "Europa"
+          ],
+          "tags": [
+            "publication_place",
+            "printing_place"
+          ],
+          "all_places": [
+            "Wien"
+          ]
+        },
+        {
+          "id": "AC10082453",
+          "year": 1668,
+          "markers": [
+            "TravelogueD17",
+            "Europa",
+            "Asien",
+            "Orient"
+          ],
+          "tags": [
+            "publication_place",
+            "printing_place"
+          ],
+          "all_places": [
+            "Wien"
+          ]
+        },
+        {
+          "id": "AC10240949",
+          "year": 1665,
+          "markers": [
+            "TravelogueD17",
+            "Europa",
+            "Orient"
+          ],
+          "tags": [
+            "publication_place"
+          ],
+          "all_places": [
+            "Wien"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.55,
+          47.36667
+        ]
+      },
+      "properties": {
+        "placename": "Zürich",
+        "geonames_uri": "http://sws.geonames.org/2657896",
+        "num_works": 1
+      },
+      "records": [
+        {
+          "id": "AC09654886",
+          "year": 1618,
+          "markers": [
+            "TravelogueD17",
+            "Europa",
+            "Asien",
+            "Afrika",
+            "Orient"
+          ],
+          "tags": [
+            "publication_place",
+            "printing_place"
+          ],
+          "all_places": [
+            "Zürich"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.37129,
+          51.33962
+        ]
+      },
+      "properties": {
+        "placename": "Leipzig",
+        "geonames_uri": "http://sws.geonames.org/2879139",
+        "num_works": 16
+      },
+      "records": [
+        {
+          "id": "AC08826003",
+          "year": 1693,
+          "markers": [
+            "TravelogueD17",
+            "Nordamerika"
+          ],
+          "tags": [
+            "publication_place"
+          ],
+          "all_places": [
+            "Leipzig"
+          ]
+        },
+        {
+          "id": "AC15336575",
+          "year": 1696,
+          "markers": [
+            "TravelogueD17",
+            "Europa"
+          ],
+          "tags": [
+            "publication_place"
+          ],
+          "all_places": [
+            "Leipzig"
+          ]
+        },
+        {
+          "id": "AC15336562",
+          "year": 1696,
+          "markers": [
+            "TravelogueD17",
+            "Europa"
+          ],
+          "tags": [
+            "publication_place"
+          ],
+          "all_places": [
+            "Leipzig"
+          ]
+        },
+        {
+          "id": "AC06298243",
+          "year": 1672,
+          "markers": [
+            "TravelogueD17",
+            "Südamerika"
+          ],
+          "tags": [
+            "publication_place",
+            "printing_place"
+          ],
+          "all_places": [
+            "Leipzig"
+          ]
+        },
+        {
+          "id": "AC02665117",
+          "year": 1687,
+          "markers": [
+            "TravelogueD17",
+            "Orient",
+            "Asien"
+          ],
+          "tags": [
+            "publication_place"
+          ],
+          "all_places": [
+            "Leipzig"
+          ]
+        },
+        {
+          "id": "AC09732089",
+          "year": 1671,
+          "markers": [
+            "TravelogueD17",
+            "Afrika",
+            "Asien",
+            "Europa",
+            "Orient"
+          ],
+          "tags": [
+            "publication_place",
+            "printing_place"
+          ],
+          "all_places": [
+            "Leipzig"
+          ]
+        },
+        {
+          "id": "AC09750435",
+          "year": 1693,
+          "markers": [
+            "TravelogueD17",
+            "Europa"
+          ],
+          "tags": [
+            "publication_place"
+          ],
+          "all_places": [
+            "Leipzig"
+          ]
+        },
+        {
+          "id": "AC10111491",
+          "year": 1605,
+          "markers": [
+            "TravelogueD17",
+            "Europa"
+          ],
+          "tags": [
+            "publication_place",
+            "printing_place"
+          ],
+          "all_places": [
+            "Leipzig"
+          ]
+        },
+        {
+          "id": "AC10133594",
+          "year": 1697,
+          "markers": [
+            "TravelogueD17",
+            "Asien",
+            "Europa",
+            "Afrika",
+            "Orient"
+          ],
+          "tags": [
+            "publication_place",
+            "printing_place"
+          ],
+          "all_places": [
+            "Leipzig"
+          ]
+        },
+        {
+          "id": "AC10156117",
+          "year": 1622,
+          "markers": [
+            "TravelogueD17",
+            "Europa"
+          ],
+          "tags": [
+            "publication_place",
+            "printing_place"
+          ],
+          "all_places": [
+            "Leipzig"
+          ]
+        },
+        {
+          "id": "AC10156722",
+          "year": 1620,
+          "markers": [
+            "TravelogueD17",
+            "Europa"
+          ],
+          "tags": [
+            "publication_place",
+            "printing_place"
+          ],
+          "all_places": [
+            "Leipzig"
+          ]
+        },
+        {
+          "id": "AC10369282",
+          "year": 1608,
+          "markers": [
+            "TravelogueD17",
+            "Europa",
+            "Asien",
+            "Orient"
+          ],
+          "tags": [
+            "publication_place",
+            "printing_place"
+          ],
+          "all_places": [
+            "Leipzig"
+          ]
+        },
+        {
+          "id": "AC10393829",
+          "year": 1610,
+          "markers": [
+            "TravelogueD17",
+            "Asien",
+            "Afrika",
+            "Orient"
+          ],
+          "tags": [
+            "publication_place",
+            "printing_place"
+          ],
+          "all_places": [
+            "Leipzig"
+          ]
+        },
+        {
+          "id": "AC10472627",
+          "year": 1611,
+          "markers": [
+            "TravelogueD17",
+            "Asien"
+          ],
+          "tags": [
+            "publication_place",
+            "printing_place"
+          ],
+          "all_places": [
+            "Leipzig"
+          ]
+        },
+        {
+          "id": "AC06609073",
+          "year": 1699,
+          "markers": [
+            "TravelogueD17",
+            "Asien"
+          ],
+          "tags": [
+            "printing_place"
+          ],
+          "all_places": [
+            "Frankfurt am Main",
+            "Leipzig"
+          ]
+        },
+        {
+          "id": "AC06609076",
+          "year": 1699,
+          "markers": [
+            "TravelogueD17",
+            "Asien"
+          ],
+          "tags": [
+            "printing_place"
+          ],
+          "all_places": [
+            "Frankfurt am Main",
+            "Leipzig"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.74553,
+          48.58392
+        ]
+      },
+      "properties": {
+        "placename": "Straßburg",
+        "geonames_uri": "http://sws.geonames.org/2973783",
+        "num_works": 2
+      },
+      "records": [
+        {
+          "id": "AC09738294",
+          "year": 1612,
+          "markers": [
+            "TravelogueD17",
+            "Afrika",
+            "Asien",
+            "Europa",
+            "Orient"
+          ],
+          "tags": [
+            "publication_place",
+            "printing_place"
+          ],
+          "all_places": [
+            "Straßburg"
+          ]
+        },
+        {
+          "id": "AC10247606",
+          "year": 1677,
+          "markers": [
+            "TravelogueD17",
+            "Südamerika",
+            "Nordamerika"
+          ],
+          "tags": [
+            "publication_place",
+            "printing_place"
+          ],
+          "all_places": [
+            "Straßburg"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.35974,
+          49.8547
+        ]
+      },
+      "properties": {
+        "placename": "Oppenheim",
+        "geonames_uri": "http://sws.geonames.org/2857167",
+        "num_works": 9
+      },
+      "records": [
+        {
+          "id": "AC05861671",
+          "year": 1614,
+          "markers": [
+            "TravelogueD17",
+            "Arktis",
+            "Asien",
+            "Europa",
+            "Nordamerika",
+            "Ozeanien"
+          ],
+          "tags": [
+            "publication_place",
+            "printing_place"
+          ],
+          "all_places": [
+            "Oppenheim"
+          ]
+        },
+        {
+          "id": "AC13796079",
+          "year": 1627,
+          "markers": [
+            "TravelogueD17",
+            "Arktis",
+            "Asien",
+            "Europa",
+            "Nordamerika",
+            "Ozeanien"
+          ],
+          "tags": [
+            "publication_place",
+            "printing_place"
+          ],
+          "all_places": [
+            "Oppenheim"
+          ]
+        },
+        {
+          "id": "AC09625865",
+          "year": 1620,
+          "markers": [
+            "TravelogueD17",
+            "Nordamerika"
+          ],
+          "tags": [
+            "publication_place",
+            "printing_place"
+          ],
+          "all_places": [
+            "Oppenheim"
+          ]
+        },
+        {
+          "id": "AC09623298",
+          "year": 1619,
+          "markers": [
+            "TravelogueD17",
+            "Südamerika"
+          ],
+          "tags": [
+            "publication_place",
+            "printing_place"
+          ],
+          "all_places": [
+            "Oppenheim"
+          ]
+        },
+        {
+          "id": "AC09625311",
+          "year": 1624,
+          "markers": [
+            "TravelogueD17",
+            "Südamerika"
+          ],
+          "tags": [
+            "publication_place",
+            "printing_place"
+          ],
+          "all_places": [
+            "Oppenheim"
+          ]
+        },
+        {
+          "id": "AC11092742",
+          "year": 1618,
+          "markers": [
+            "TravelogueD17",
+            "Nordamerika"
+          ],
+          "tags": [
+            "publication_place",
+            "printing_place"
+          ],
+          "all_places": [
+            "Oppenheim"
+          ]
+        },
+        {
+          "id": "AC11092838",
+          "year": 1620,
+          "markers": [
+            "TravelogueD17",
+            "Südamerika",
+            "Nordamerika",
+            "Asien",
+            "Afrika",
+            "Ozeanien"
+          ],
+          "tags": [
+            "publication_place",
+            "printing_place"
+          ],
+          "all_places": [
+            "Oppenheim"
+          ]
+        },
+        {
+          "id": "AC11095721",
+          "year": 1618,
+          "markers": [
+            "TravelogueD17",
+            "Arktis",
+            "Asien",
+            "Europa"
+          ],
+          "tags": [
+            "publication_place",
+            "printing_place"
+          ],
+          "all_places": [
+            "Oppenheim"
+          ]
+        },
+        {
+          "id": "AC10053682",
+          "year": 1613,
+          "markers": [
+            "TravelogueD17",
+            "Nordamerika",
+            "Südamerika"
+          ],
+          "tags": [
+            "publication_place"
+          ],
+          "all_places": [
+            "Oppenheim"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.42372,
+          48.76508
+        ]
+      },
+      "properties": {
+        "placename": "Ingolstadt",
+        "geonames_uri": "http://sws.geonames.org/2895992",
+        "num_works": 3
+      },
+      "records": [
+        {
+          "id": "AC07530148",
+          "year": 1617,
+          "markers": [
+            "TravelogueD17",
+            "Asien"
+          ],
+          "tags": [
+            "publication_place",
+            "printing_place"
+          ],
+          "all_places": [
+            "Ingolstadt"
+          ]
+        },
+        {
+          "id": "AC05928802",
+          "year": 1617,
+          "markers": [
+            "TravelogueD17",
+            "Asien"
+          ],
+          "tags": [
+            "publication_place",
+            "printing_place"
+          ],
+          "all_places": [
+            "Ingolstadt"
+          ]
+        },
+        {
+          "id": "AC09909747",
+          "year": 1622,
+          "markers": [
+            "TravelogueD17",
+            "Südamerika"
+          ],
+          "tags": [
+            "publication_place",
+            "printing_place"
+          ],
+          "all_places": [
+            "Ingolstadt"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.91418,
+          50.13423
+        ]
+      },
+      "properties": {
+        "placename": "Hanau",
+        "geonames_uri": "http://sws.geonames.org/2911007",
+        "num_works": 3
+      },
+      "records": [
+        {
+          "id": "AC05861683",
+          "year": 1617,
+          "markers": [
+            "TravelogueD17",
+            "Nordamerika"
+          ],
+          "tags": [
+            "publication_place",
+            "printing_place"
+          ],
+          "all_places": [
+            "Hanau"
+          ]
+        },
+        {
+          "id": "AC05861706",
+          "year": 1617,
+          "markers": [
+            "TravelogueD17",
+            "Orient",
+            "Asien"
+          ],
+          "tags": [
+            "publication_place",
+            "printing_place"
+          ],
+          "all_places": [
+            "Hanau"
+          ]
+        },
+        {
+          "id": "AC11092938",
+          "year": 1630,
+          "markers": [
+            "TravelogueD17",
+            "Nordamerika",
+            "Südamerika",
+            "Afrika",
+            "Asien"
+          ],
+          "tags": [
+            "publication_place",
+            "printing_place"
+          ],
+          "all_places": [
+            "Hanau"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.18711,
+          49.37885
+        ]
+      },
+      "properties": {
+        "placename": "Rothenburg ob der Tauber",
+        "geonames_uri": "http://sws.geonames.org/2844056",
+        "num_works": 1
+      },
+      "records": [
+        {
+          "id": "AC07938330",
+          "year": 1682,
+          "markers": [
+            "TravelogueD17",
+            "Asien",
+            "Orient"
+          ],
+          "tags": [
+            "publication_place",
+            "printing_place"
+          ],
+          "all_places": [
+            "Rothenburg ob der Tauber"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.44744,
+          46.94809
+        ]
+      },
+      "properties": {
+        "placename": "Bern",
+        "geonames_uri": "http://sws.geonames.org/2661552",
+        "num_works": 1
+      },
+      "records": [
+        {
+          "id": "AC08141413",
+          "year": 1669,
+          "markers": [
+            "TravelogueD17",
+            "Asien"
+          ],
+          "tags": [
+            "publication_place",
+            "printing_place"
+          ],
+          "all_places": [
+            "Bern"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.69079,
+          49.40768
+        ]
+      },
+      "properties": {
+        "placename": "Heidelberg",
+        "geonames_uri": "http://sws.geonames.org/2907911",
+        "num_works": 2
+      },
+      "records": [
+        {
+          "id": "AC05954460",
+          "year": 1610,
+          "markers": [
+            "TravelogueD17",
+            "Afrika",
+            "Asien",
+            "Europa",
+            "Orient"
+          ],
+          "tags": [
+            "publication_place",
+            "printing_place"
+          ],
+          "all_places": [
+            "Heidelberg"
+          ]
+        },
+        {
+          "id": "AC09705487",
+          "year": 1613,
+          "markers": [
+            "TravelogueD17",
+            "Europa"
+          ],
+          "tags": [
+            "publication_place",
+            "printing_place"
+          ],
+          "all_places": [
+            "Heidelberg"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4961,
+          51.8572
+        ]
+      },
+      "properties": {
+        "placename": "Schloss Bevern",
+        "geonames_uri": "http://sws.geonames.org/2949489",
+        "num_works": 1
+      },
+      "records": [
+        {
+          "id": "AC15338322",
+          "year": 1678,
+          "markers": [
+            "TravelogueD17",
+            "Europa"
+          ],
+          "tags": [
+            "publication_place",
+            "printing_place"
+          ],
+          "all_places": [
+            "Schloss Bevern"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.88969,
+          52.37403
+        ]
+      },
+      "properties": {
+        "placename": "Amsterdam",
+        "geonames_uri": "http://sws.geonames.org/2759794",
+        "num_works": 9
+      },
+      "records": [
+        {
+          "id": "AC05197132",
+          "year": 1666,
+          "markers": [
+            "TravelogueD17",
+            "Asien"
+          ],
+          "tags": [
+            "publication_place",
+            "printing_place"
+          ],
+          "all_places": [
+            "Amsterdam"
+          ]
+        },
+        {
+          "id": "AC15353946",
+          "year": 1671,
+          "markers": [
+            "TravelogueD17",
+            "Afrika",
+            "Asien",
+            "Europa",
+            "Orient"
+          ],
+          "tags": [
+            "publication_place",
+            "printing_place"
+          ],
+          "all_places": [
+            "Amsterdam"
+          ]
+        },
+        {
+          "id": "AC09676508",
+          "year": 1672,
+          "markers": [
+            "TravelogueD17",
+            "Asien"
+          ],
+          "tags": [
+            "publication_place",
+            "printing_place"
+          ],
+          "all_places": [
+            "Amsterdam"
+          ]
+        },
+        {
+          "id": "AC10115728",
+          "year": 1671,
+          "markers": [
+            "TravelogueD17",
+            "Europa",
+            "Asien",
+            "Afrika",
+            "Orient"
+          ],
+          "tags": [
+            "publication_place"
+          ],
+          "all_places": [
+            "Amsterdam"
+          ]
+        },
+        {
+          "id": "AC10134690",
+          "year": 1670,
+          "markers": [
+            "TravelogueD17",
+            "Asien"
+          ],
+          "tags": [
+            "publication_place",
+            "printing_place"
+          ],
+          "all_places": [
+            "Amsterdam"
+          ]
+        },
+        {
+          "id": "AC10356133",
+          "year": 1678,
+          "markers": [
+            "TravelogueD17",
+            "Europa",
+            "Asien",
+            "Afrika",
+            "Orient"
+          ],
+          "tags": [
+            "publication_place",
+            "printing_place"
+          ],
+          "all_places": [
+            "Amsterdam"
+          ]
+        },
+        {
+          "id": "AC10472044",
+          "year": 1669,
+          "markers": [
+            "TravelogueD17",
+            "Asien"
+          ],
+          "tags": [
+            "publication_place",
+            "printing_place"
+          ],
+          "all_places": [
+            "Amsterdam"
+          ]
+        },
+        {
+          "id": "AC10472190",
+          "year": 1669,
+          "markers": [
+            "TravelogueD17",
+            "Asien"
+          ],
+          "tags": [
+            "publication_place",
+            "printing_place"
+          ],
+          "all_places": [
+            "Amsterdam"
+          ]
+        },
+        {
+          "id": "AC08171604",
+          "year": 1676,
+          "markers": [
+            "TravelogueD17",
+            "Asien"
+          ],
+          "tags": [
+            "publication_place",
+            "printing_place"
+          ],
+          "all_places": [
+            "Amsterdam"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.5586,
+          54.52156
+        ]
+      },
+      "properties": {
+        "placename": "Schleswig",
+        "geonames_uri": "http://sws.geonames.org/2838634",
+        "num_works": 4
+      },
+      "records": [
+        {
+          "id": "AC08439291",
+          "year": 1647,
+          "markers": [
+            "TravelogueD17",
+            "Asien",
+            "Europa",
+            "Orient"
+          ],
+          "tags": [
+            "publication_place",
+            "printing_place"
+          ],
+          "all_places": [
+            "Schleswig"
+          ]
+        },
+        {
+          "id": "AC09656610",
+          "year": 1669,
+          "markers": [
+            "TravelogueD17",
+            "Orient",
+            "Afrika",
+            "Asien",
+            "Europa"
+          ],
+          "tags": [
+            "publication_place",
+            "printing_place"
+          ],
+          "all_places": [
+            "Schleswig"
+          ]
+        },
+        {
+          "id": "AC10169202",
+          "year": 1656,
+          "markers": [
+            "TravelogueD17",
+            "Europa",
+            "Asien",
+            "Orient"
+          ],
+          "tags": [
+            "publication_place",
+            "printing_place"
+          ],
+          "all_places": [
+            "Schleswig"
+          ]
+        },
+        {
+          "id": "AC06323994",
+          "year": 1658,
+          "markers": [
+            "TravelogueD17",
+            "Asien",
+            "Afrika",
+            "Orient"
+          ],
+          "tags": [
+            "printing_place"
+          ],
+          "all_places": [
+            "Hamburg",
+            "Schleswig"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.14569,
+          46.20222
+        ]
+      },
+      "properties": {
+        "placename": "Genf",
+        "geonames_uri": "http://sws.geonames.org/2660646",
+        "num_works": 7
+      },
+      "records": [
+        {
+          "id": "AC15353248",
+          "year": 1681,
+          "markers": [
+            "TravelogueD17",
+            "Asien",
+            "Orient"
+          ],
+          "tags": [
+            "publication_place",
+            "printing_place"
+          ],
+          "all_places": [
+            "Genf"
+          ]
+        },
+        {
+          "id": "AC15353192",
+          "year": 1681,
+          "markers": [
+            "TravelogueD17",
+            "Asien"
+          ],
+          "tags": [
+            "publication_place",
+            "printing_place"
+          ],
+          "all_places": [
+            "Genf"
+          ]
+        },
+        {
+          "id": "AC15353060",
+          "year": 1681,
+          "markers": [
+            "TravelogueD17",
+            "Asien",
+            "Europa",
+            "Orient"
+          ],
+          "tags": [
+            "publication_place",
+            "printing_place"
+          ],
+          "all_places": [
+            "Genf"
+          ]
+        },
+        {
+          "id": "AC09628947",
+          "year": 1674,
+          "markers": [
+            "TravelogueD17",
+            "Orient",
+            "Afrika",
+            "Asien"
+          ],
+          "tags": [
+            "publication_place",
+            "printing_place"
+          ],
+          "all_places": [
+            "Genf"
+          ]
+        },
+        {
+          "id": "AC09628948",
+          "year": 1674,
+          "markers": [
+            "TravelogueD17",
+            "Orient",
+            "Asien"
+          ],
+          "tags": [
+            "publication_place",
+            "printing_place"
+          ],
+          "all_places": [
+            "Genf"
+          ]
+        },
+        {
+          "id": "AC09628949",
+          "year": 1674,
+          "markers": [
+            "TravelogueD17",
+            "Asien",
+            "Orient"
+          ],
+          "tags": [
+            "publication_place",
+            "printing_place"
+          ],
+          "all_places": [
+            "Genf"
+          ]
+        },
+        {
+          "id": "AC09628950",
+          "year": 1674,
+          "markers": [
+            "TravelogueD17",
+            "Asien",
+            "Europa",
+            "Orient"
+          ],
+          "tags": [
+            "publication_place",
+            "printing_place"
+          ],
+          "all_places": [
+            "Genf"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.57549,
+          48.13743
+        ]
+      },
+      "properties": {
+        "placename": "München",
+        "geonames_uri": "http://sws.geonames.org/2867714",
+        "num_works": 5
+      },
+      "records": [
+        {
+          "id": "AC06479586",
+          "year": 1608,
+          "markers": [
+            "TravelogueD17",
+            "Asien"
+          ],
+          "tags": [
+            "publication_place",
+            "printing_place"
+          ],
+          "all_places": [
+            "München"
+          ]
+        },
+        {
+          "id": "AC08188792",
+          "year": 1661,
+          "markers": [
+            "TravelogueD17",
+            "Asien",
+            "Europa",
+            "Orient"
+          ],
+          "tags": [
+            "publication_place",
+            "printing_place"
+          ],
+          "all_places": [
+            "München"
+          ]
+        },
+        {
+          "id": "AC10241018",
+          "year": 1609,
+          "markers": [
+            "TravelogueD17",
+            "Afrika",
+            "Asien",
+            "Südamerika"
+          ],
+          "tags": [
+            "publication_place",
+            "printing_place"
+          ],
+          "all_places": [
+            "München"
+          ]
+        },
+        {
+          "id": "AC10425489",
+          "year": 1610,
+          "markers": [
+            "TravelogueD17",
+            "Europa",
+            "Asien",
+            "Orient"
+          ],
+          "tags": [
+            "publication_place",
+            "printing_place"
+          ],
+          "all_places": [
+            "München"
+          ]
+        },
+        {
+          "id": "AC10472183",
+          "year": 1619,
+          "markers": [
+            "TravelogueD17",
+            "Asien",
+            "Nordamerika"
+          ],
+          "tags": [
+            "publication_place",
+            "printing_place"
+          ],
+          "all_places": [
+            "München"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.21467,
+          53.14118
+        ]
+      },
+      "properties": {
+        "placename": "Oldenburg (Oldenburg)",
+        "geonames_uri": "http://sws.geonames.org/2857458",
+        "num_works": 1
+      },
+      "records": [
+        {
+          "id": "AC06341129",
+          "year": 1664,
+          "markers": [
+            "TravelogueD17",
+            "Südamerika"
+          ],
+          "tags": [
+            "publication_place",
+            "printing_place"
+          ],
+          "all_places": [
+            "Oldenburg (Oldenburg)"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.91111,
+          51.98
+        ]
+      },
+      "properties": {
+        "placename": "Arnheim",
+        "geonames_uri": "http://sws.geonames.org/2759661",
+        "num_works": 2
+      },
+      "records": [
+        {
+          "id": "AC02064682",
+          "year": 1618,
+          "markers": [
+            "TravelogueD17",
+            "Asien",
+            "Afrika",
+            "Südamerika",
+            "Ozeanien"
+          ],
+          "tags": [
+            "publication_place",
+            "printing_place"
+          ],
+          "all_places": [
+            "Arnheim"
+          ]
+        },
+        {
+          "id": "AC10153023",
+          "year": 1601,
+          "markers": [
+            "TravelogueD17",
+            "Asien",
+            "Ozeanien",
+            "Afrika"
+          ],
+          "tags": [
+            "publication_place",
+            "printing_place"
+          ],
+          "all_places": [
+            "Arnheim"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5899,
+          50.92878
+        ]
+      },
+      "properties": {
+        "placename": "Jena",
+        "geonames_uri": "http://sws.geonames.org/2895044",
+        "num_works": 3
+      },
+      "records": [
+        {
+          "id": "AC09692458",
+          "year": 1668,
+          "markers": [
+            "TravelogueD17",
+            "Orient",
+            "Asien"
+          ],
+          "tags": [
+            "publication_place"
+          ],
+          "all_places": [
+            "Jena"
+          ]
+        },
+        {
+          "id": "AC10211025",
+          "year": 1675,
+          "markers": [
+            "TravelogueD17",
+            "Europa",
+            "Asien",
+            "Orient"
+          ],
+          "tags": [
+            "publication_place",
+            "printing_place"
+          ],
+          "all_places": [
+            "Jena"
+          ]
+        },
+        {
+          "id": "AC10337706",
+          "year": 1675,
+          "markers": [
+            "TravelogueD17",
+            "Asien",
+            "Europa",
+            "Orient"
+          ],
+          "tags": [
+            "publication_place"
+          ],
+          "all_places": [
+            "Jena",
+            "Gera"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.57893,
+          49.94782
+        ]
+      },
+      "properties": {
+        "placename": "Bayreuth",
+        "geonames_uri": "http://sws.geonames.org/2951825",
+        "num_works": 1
+      },
+      "records": [
+        {
+          "id": "AC09716233",
+          "year": 1676,
+          "markers": [
+            "TravelogueD17",
+            "Europa"
+          ],
+          "tags": [
+            "publication_place",
+            "printing_place"
+          ],
+          "all_places": [
+            "Bayreuth"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.00985,
+          52.2279
+        ]
+      },
+      "properties": {
+        "placename": "Helmstedt",
+        "geonames_uri": "http://sws.geonames.org/2906676",
+        "num_works": 2
+      },
+      "records": [
+        {
+          "id": "AC09720747",
+          "year": 1687,
+          "markers": [
+            "TravelogueD17",
+            "Afrika",
+            "Asien",
+            "Europa",
+            "Orient"
+          ],
+          "tags": [
+            "publication_place"
+          ],
+          "all_places": [
+            "Helmstedt"
+          ]
+        },
+        {
+          "id": "AC10283495",
+          "year": 1679,
+          "markers": [
+            "TravelogueD17",
+            "Europa",
+            "Asien",
+            "Orient"
+          ],
+          "tags": [
+            "publication_place"
+          ],
+          "all_places": [
+            "Helmstedt"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.05222,
+          48.52266
+        ]
+      },
+      "properties": {
+        "placename": "Tübingen",
+        "geonames_uri": "http://sws.geonames.org/2820860",
+        "num_works": 3
+      },
+      "records": [
+        {
+          "id": "AC09738292",
+          "year": 1607,
+          "markers": [
+            "TravelogueD17",
+            "Orient",
+            "Afrika",
+            "Asien",
+            "Europa"
+          ],
+          "tags": [
+            "publication_place",
+            "printing_place"
+          ],
+          "all_places": [
+            "Tübingen"
+          ]
+        },
+        {
+          "id": "AC10230776",
+          "year": 1604,
+          "markers": [
+            "TravelogueD17",
+            "Europa"
+          ],
+          "tags": [
+            "publication_place",
+            "printing_place"
+          ],
+          "all_places": [
+            "Tübingen"
+          ]
+        },
+        {
+          "id": "AC10472894",
+          "year": 1603,
+          "markers": [
+            "TravelogueD17",
+            "Europa"
+          ],
+          "tags": [
+            "publication_place",
+            "printing_place"
+          ],
+          "all_places": [
+            "Tübingen"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.99302,
+          53.55073
+        ]
+      },
+      "properties": {
+        "placename": "Hamburg",
+        "geonames_uri": "http://sws.geonames.org/2911298",
+        "num_works": 6
+      },
+      "records": [
+        {
+          "id": "AC09743746",
+          "year": 1675,
+          "markers": [
+            "TravelogueD17",
+            "Arktis",
+            "Europa"
+          ],
+          "tags": [
+            "publication_place",
+            "printing_place"
+          ],
+          "all_places": [
+            "Hamburg"
+          ]
+        },
+        {
+          "id": "AC09757482",
+          "year": 1678,
+          "markers": [
+            "TravelogueD17",
+            "Europa",
+            "Arktis"
+          ],
+          "tags": [
+            "publication_place"
+          ],
+          "all_places": [
+            "Hamburg"
+          ]
+        },
+        {
+          "id": "AC09995786",
+          "year": 1670,
+          "markers": [
+            "TravelogueD17",
+            "Asien"
+          ],
+          "tags": [
+            "publication_place",
+            "printing_place"
+          ],
+          "all_places": [
+            "Hamburg"
+          ]
+        },
+        {
+          "id": "AC10102242",
+          "year": 1675,
+          "markers": [
+            "TravelogueD17",
+            "Arktis",
+            "Europa"
+          ],
+          "tags": [
+            "publication_place",
+            "printing_place"
+          ],
+          "all_places": [
+            "Hamburg"
+          ]
+        },
+        {
+          "id": "AC10143408",
+          "year": 1676,
+          "markers": [
+            "TravelogueD17",
+            "Afrika"
+          ],
+          "tags": [
+            "publication_place"
+          ],
+          "all_places": [
+            "Hamburg"
+          ]
+        },
+        {
+          "id": "AC06323994",
+          "year": 1658,
+          "markers": [
+            "TravelogueD17",
+            "Asien",
+            "Afrika",
+            "Orient"
+          ],
+          "tags": [
+            "publication_place"
+          ],
+          "all_places": [
+            "Hamburg",
+            "Schleswig"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.95121,
+          49.79391
+        ]
+      },
+      "properties": {
+        "placename": "Würzburg",
+        "geonames_uri": "http://sws.geonames.org/2805615",
+        "num_works": 2
+      },
+      "records": [
+        {
+          "id": "AC09832396",
+          "year": 1667,
+          "markers": [
+            "TravelogueD17",
+            "Afrika",
+            "Asien",
+            "Europa",
+            "Orient"
+          ],
+          "tags": [
+            "publication_place",
+            "printing_place"
+          ],
+          "all_places": [
+            "Würzburg"
+          ]
+        },
+        {
+          "id": "AC10383262",
+          "year": 1604,
+          "markers": [
+            "TravelogueD17",
+            "Asien",
+            "Südamerika"
+          ],
+          "tags": [
+            "publication_place",
+            "printing_place"
+          ],
+          "all_places": [
+            "Würzburg"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.99155,
+          48.39841
+        ]
+      },
+      "properties": {
+        "placename": "Ulm",
+        "geonames_uri": "http://sws.geonames.org/2820256",
+        "num_works": 3
+      },
+      "records": [
+        {
+          "id": "AC09877215",
+          "year": 1692,
+          "markers": [
+            "TravelogueD17",
+            "Asien"
+          ],
+          "tags": [
+            "publication_place",
+            "printing_place"
+          ],
+          "all_places": [
+            "Ulm"
+          ]
+        },
+        {
+          "id": "AC09881815",
+          "year": 1627,
+          "markers": [
+            "TravelogueD17",
+            "Europa"
+          ],
+          "tags": [
+            "publication_place",
+            "printing_place"
+          ],
+          "all_places": [
+            "Ulm"
+          ]
+        },
+        {
+          "id": "AC09912736",
+          "year": 1658,
+          "markers": [
+            "TravelogueD17",
+            "Europa"
+          ],
+          "tags": [
+            "publication_place",
+            "printing_place"
+          ],
+          "all_places": [
+            "Ulm"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.68729,
+          53.86893
+        ]
+      },
+      "properties": {
+        "placename": "Lübeck",
+        "geonames_uri": "http://sws.geonames.org/2875601",
+        "num_works": 1
+      },
+      "records": [
+        {
+          "id": "AC09994471",
+          "year": 1652,
+          "markers": [
+            "TravelogueD17",
+            "Europa",
+            "Asien",
+            "Orient"
+          ],
+          "tags": [
+            "publication_place",
+            "printing_place"
+          ],
+          "all_places": [
+            "Lübeck"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.17582,
+          47.66033
+        ]
+      },
+      "properties": {
+        "placename": "Konstanz",
+        "geonames_uri": "http://sws.geonames.org/2885679",
+        "num_works": 2
+      },
+      "records": [
+        {
+          "id": "AC10199539",
+          "year": 1603,
+          "markers": [
+            "TravelogueD17",
+            "Asien"
+          ],
+          "tags": [
+            "publication_place",
+            "printing_place"
+          ],
+          "all_places": [
+            "Konstanz"
+          ]
+        },
+        {
+          "id": "AC10405921",
+          "year": 1603,
+          "markers": [
+            "TravelogueD17",
+            "Orient",
+            "Asien",
+            "Europa"
+          ],
+          "tags": [
+            "publication_place",
+            "printing_place"
+          ],
+          "all_places": [
+            "Konstanz"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.2791,
+          49.98419
+        ]
+      },
+      "properties": {
+        "placename": "Mainz",
+        "geonames_uri": "http://sws.geonames.org/2874225",
+        "num_works": 1
+      },
+      "records": [
+        {
+          "id": "AC10227706",
+          "year": 1603,
+          "markers": [
+            "TravelogueD17",
+            "Asien",
+            "Afrika",
+            "Orient"
+          ],
+          "tags": [
+            "publication_place",
+            "printing_place"
+          ],
+          "all_places": [
+            "Mainz"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.62916,
+          52.12773
+        ]
+      },
+      "properties": {
+        "placename": "Magdeburg",
+        "geonames_uri": "http://sws.geonames.org/2874545",
+        "num_works": 1
+      },
+      "records": [
+        {
+          "id": "AC10256579",
+          "year": 1605,
+          "markers": [
+            "TravelogueD17",
+            "Europa",
+            "Asien"
+          ],
+          "tags": [
+            "publication_place",
+            "printing_place"
+          ],
+          "all_places": [
+            "Magdeburg"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.65598,
+          46.71503
+        ]
+      },
+      "properties": {
+        "placename": "Brixen",
+        "geonames_uri": "http://sws.geonames.org/3181550",
+        "num_works": 1
+      },
+      "records": [
+        {
+          "id": "AC10314757",
+          "year": 1696,
+          "markers": [
+            "TravelogueD17",
+            "Südamerika"
+          ],
+          "tags": [
+            "publication_place",
+            "printing_place"
+          ],
+          "all_places": [
+            "Brixen"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.08187,
+          50.88029
+        ]
+      },
+      "properties": {
+        "placename": "Gera",
+        "geonames_uri": "http://sws.geonames.org/2921232",
+        "num_works": 1
+      },
+      "records": [
+        {
+          "id": "AC10337706",
+          "year": 1675,
+          "markers": [
+            "TravelogueD17",
+            "Asien",
+            "Europa",
+            "Orient"
+          ],
+          "tags": [
+            "printing_place"
+          ],
+          "all_places": [
+            "Jena",
+            "Gera"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.4373,
+          50.9872
+        ]
+      },
+      "properties": {
+        "placename": "Altenburg",
+        "geonames_uri": "http://sws.geonames.org/2957773",
+        "num_works": 1
+      },
+      "records": [
+        {
+          "id": "AC10369283",
+          "year": 1609,
+          "markers": [
+            "TravelogueD17",
+            "Europa",
+            "Asien",
+            "Orient"
+          ],
+          "tags": [
+            "publication_place"
+          ],
+          "all_places": [
+            "Altenburg"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.17702,
+          48.78232
+        ]
+      },
+      "properties": {
+        "placename": "Stuttgart",
+        "geonames_uri": "http://sws.geonames.org/2825297",
+        "num_works": 1
+      },
+      "records": [
+        {
+          "id": "AC10434248",
+          "year": 1659,
+          "markers": [
+            "TravelogueD17",
+            "Europa",
+            "Asien",
+            "Afrika",
+            "Orient"
+          ],
+          "tags": [
+            "publication_place",
+            "printing_place"
+          ],
+          "all_places": [
+            "Stuttgart"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.74598,
+          49.50126
+        ]
+      },
+      "properties": {
+        "placename": "Sulzbach-Rosenberg",
+        "geonames_uri": "http://sws.geonames.org/2824801",
+        "num_works": 1
+      },
+      "records": [
+        {
+          "id": "AC10452705",
+          "year": 1686,
+          "markers": [
+            "TravelogueD17",
+            "Asien"
+          ],
+          "tags": [
+            "publication_place",
+            "printing_place"
+          ],
+          "all_places": [
+            "Sulzbach-Rosenberg"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.80764,
+          50.89772
+        ]
+      },
+      "properties": {
+        "placename": "Zittau",
+        "geonames_uri": "http://sws.geonames.org/2804008",
+        "num_works": 1
+      },
+      "records": [
+        {
+          "id": "AC10473585",
+          "year": 1693,
+          "markers": [
+            "TravelogueD17",
+            "Asien"
+          ],
+          "tags": [
+            "publication_place",
+            "printing_place"
+          ],
+          "all_places": [
+            "Zittau"
+          ]
+        }
+      ]
+    }
+  ]
+}
