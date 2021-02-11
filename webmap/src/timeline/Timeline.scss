@@ -1,0 +1,57 @@
+.timeline {
+  padding:0 40px;
+  
+  .timeline-axis-wrapper {
+    position:relative;
+    display:flex;
+    align-items: center;
+
+    .timeline-x-axis {
+      height:4px;
+      width:100%;
+      border-radius:2px;
+      background-color:rgba(0,0,0,0.4);
+      transform:translateY(50%);
+    }
+
+  }
+
+  .timeline-ticks {
+    width:100%;
+    height:100%;
+    padding:34px 0;
+    position:relative;
+    box-sizing:border-box;
+
+    .timeline-tick-wrapper {
+      position:absolute;
+      top:0;
+      height:100%;
+      display:flex;
+      align-items:center;
+      transform:translateX(-4px);
+      cursor:pointer;
+      z-index:0;
+
+      .timeline-tick {
+        width:8px;
+        height:8px;
+        border-radius:50%;
+        background-color:rgba(0,0,0,0.5);
+      }
+
+    }
+
+    .timeline-tick-wrapper:hover {
+      z-index:1;
+      
+      .timeline-tick {
+        background-color:rgb(52, 106, 255);
+        width:18px;
+        height:18px;
+      }
+    }
+
+  }
+
+}

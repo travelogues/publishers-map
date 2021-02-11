@@ -4,4 +4,15 @@ html, body, #root, .App {
   padding:0;
   margin:0;
 }
+
+.timeline {
+  position:absolute;
+  bottom:50px;
+  left:30px;
+  right:30px;
+  z-index:99999;
+  background-color:#fff;
+  border-radius:20px;
+  box-shadow:0 0 8px rgba(0,0,0,0.4);
+}
  

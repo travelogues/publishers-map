@@ -26,9 +26,7 @@ const SetBounds = ({ data }) => {
   return null;
 }
 
-const Map = props => {
-
-  const { data } = useSWR('/map.json', url => fetch(url).then(r => r.json()));
+const Map = ({ data }) => {
 
   const points = data?.features.filter(f => f?.geometry.type === 'Point');
 
