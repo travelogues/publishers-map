@@ -1,5 +1,5 @@
 import bbox from '@turf/bbox';
-import { MapConsumer, MapContainer, Marker, Popup, TileLayer } from 'react-leaflet';
+import { MapConsumer, MapContainer, Marker, Popup, TileLayer, useMap } from 'react-leaflet';
 import useSWR from 'swr';
 
 import 'leaflet/dist/leaflet.css';
@@ -19,6 +19,13 @@ const getBounds = geojson => {
   ];
 }
 
+const SetBounds = ({ data }) => {
+  const map = useMap();
+  const bounds = data ? getBounds(data) : DEFAULT_BOUNDS;
+  map.fitBounds(bounds);
+  return null;
+}
+
 const Map = props => {
 
   const { data } = useSWR('/map.json', url => fetch(url).then(r => r.json()));
@@ -26,14 +33,8 @@ const Map = props => {
   const points = data?.features.filter(f => f?.geometry.type === 'Point');
 
   return (
-    <MapContainer bounds={DEFAULT_BOUNDS}>
-      <MapConsumer>
-        { map => {
-          const bounds = data ? getBounds(data) : DEFAULT_BOUNDS;
-          map.fitBounds(bounds);
-          return null;
-        }}
-      </MapConsumer>
+    <MapContainer>
+      <SetBounds data={data} />
 
       <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
 
