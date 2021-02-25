@@ -19,7 +19,7 @@ const computeTimeline = data => {
 
 const App = () => {
 
-  const { data } = useSWR('/map.json', url => fetch(url).then(r => r.json()));
+  const { data } = useSWR('map.json', url => fetch(url).then(r => r.json()));
 
   const [ timerange, setTimerange ] = useState();
 
