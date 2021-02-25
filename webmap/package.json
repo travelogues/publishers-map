@@ -2,6 +2,7 @@
   "name": "webmap",
   "version": "0.1.0",
   "private": true,
+  "homepage": ".",
   "dependencies": {
     "@turf/bbox": "^6.3.0",
     "leaflet": "^1.7.1",
