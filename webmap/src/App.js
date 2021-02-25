@@ -14,7 +14,7 @@ const computeTimeline = data => {
   const years = data.features.reduce(reducer, new Set());
 
   // To array and sort
-  return [ ...Array.from(years).sort() ];
+  return [ ...Array.from(years).slice().sort() ];
 }
 
 const App = () => {
