@@ -19,34 +19,33 @@ const getBounds = geojson => {
   ];
 }
 
-const SetBounds = ({ data }) => {
-  const map = useMap();
-  const bounds = data ? getBounds(data) : DEFAULT_BOUNDS;
-  map.fitBounds(bounds);
-  return null;
-}
-
 const Map = ({ data, timerange }) => {
 
-  const points = data?.features.filter(f => f?.geometry.type === 'Point');
+  const allFeatures = data?.features.filter(f => f?.geometry.type === 'Point');
 
-  console.log(points);
+  const featuresToDisplay = timerange ? allFeatures.filter(f => {
+    const { min, max } = timerange;
+    const { earliest, latest } = f.properties;
+    return earliest <= max && latest >= min; 
+  }) : allFeatures;
 
   return (
-    <MapContainer>
-      <SetBounds data={data} />
+    <>
+      { featuresToDisplay &&
+        <MapContainer bounds={getBounds(data)}>
+          <TileLayer url="https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}" />
 
-      <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
-
-      { points && points.map((f, idx) =>
-        <Marker key={idx} position={f.geometry.coordinates.slice().reverse()}>
-          <Popup>
-            <a href={f.properties.geonames_uri}>{f.properties.placename}</a> <br/>
-            {f.properties.num_works} works
-          </Popup>
-        </Marker>
-      )}
-    </MapContainer>
+          { featuresToDisplay.map((f, idx) =>
+            <Marker key={idx} position={f.geometry.coordinates.slice().reverse()}>
+              <Popup>
+                <a href={f.properties.geonames_uri}>{f.properties.placename}</a> <br/>
+                {f.properties.num_works} works
+              </Popup>
+            </Marker>
+          )}
+        </MapContainer>
+      }
+    </>
   )
 
 }
