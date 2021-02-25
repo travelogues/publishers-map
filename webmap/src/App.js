@@ -20,11 +20,15 @@ const App = () => {
 
   const { data } = useSWR('/map.json', url => fetch(url).then(r => r.json()));
 
+  const onChange = range => {
+    console.log(range);
+  }
+
   return (
     <div className="App">
       <Map data={data} />
       { data && 
-        <Timeline data={computeTimeline(data)} />
+        <Timeline data={computeTimeline(data)} onChange={onChange} />
       }
     </div>
   );
