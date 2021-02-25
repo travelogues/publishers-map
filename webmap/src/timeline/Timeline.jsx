@@ -1,3 +1,4 @@
+// Cf. https://github.com/davidchin/react-input-range
 import InputRange from 'react-input-range';
 import { useState } from 'react';
 
@@ -17,20 +18,21 @@ const Timeline = ({ data }) => {
 
   return (
     <div className="t6e-timeline">
-      <div className="t6e-ticks">
-        { data.map(year =>
-          <div key={year} className="t6e-tick-wrapper" style={{ left: `${getLeftPct(year)}%` }}>
-            <div className="t6e-tick" />
-          </div>
-        )}
+      <div className="t6e-timeline-inner">
+        <div className="t6e-ticks">
+          { data.map(year =>
+            <div key={year} className="t6e-tick-wrapper" style={{ left: `${getLeftPct(year)}%` }}>
+              <div className="t6e-tick" />
+            </div>
+          )}
+        </div>
+        <InputRange
+          draggableTrack
+          minValue={0}
+          maxValue={20}
+          value={range}
+          onChange={value => setRange(value)} />
       </div>
-
-      <InputRange
-        draggableTrack
-        minValue={0}
-        maxValue={20}
-        value={range}
-        onChange={value => setRange(value)} />
     </div>
   )
 
