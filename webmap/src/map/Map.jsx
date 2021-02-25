@@ -1,15 +1,9 @@
 import bbox from '@turf/bbox';
-import { MapConsumer, MapContainer, Marker, Popup, TileLayer, useMap } from 'react-leaflet';
-import useSWR from 'swr';
+import { MapContainer, CircleMarker, Popup, TileLayer } from 'react-leaflet';
 
 import 'leaflet/dist/leaflet.css';
 
 import './Map.scss';
-
-const DEFAULT_BOUNDS = [
-  [ 45, 5 ],
-  [ 56, 20 ]
-];
 
 const getBounds = geojson => {
   const bounds = bbox(geojson);
@@ -29,6 +23,25 @@ const Map = ({ data, timerange }) => {
     return earliest <= max && latest >= min; 
   }) : allFeatures;
 
+  // TODO make min/max scale dynamic, based on the values in the data
+  const getRadius = feature => {
+    const works = timerange ? feature.records
+      .map(r => r.year)
+      .filter(y => y >= timerange.min && y <= timerange.max).length : feature.properties.num_works;
+
+    return Math.max(5, works / 2.5);
+  }
+
+  const style = {
+    stroke: true,
+    color: '#000',
+    weight: 2,
+    opacity: 1,
+    fill: true,
+    fillColor: '#fff',
+    fillOpacity: 1
+  }
+
   return (
     <>
       { featuresToDisplay &&
@@ -36,12 +49,16 @@ const Map = ({ data, timerange }) => {
           <TileLayer url="https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}" />
 
           { featuresToDisplay.map((f, idx) =>
-            <Marker key={idx} position={f.geometry.coordinates.slice().reverse()}>
+            <CircleMarker 
+              key={idx} 
+              center={f.geometry.coordinates.slice().reverse()}
+              radius={getRadius(f)}
+              pathOptions={style}>
               <Popup>
                 <a href={f.properties.geonames_uri}>{f.properties.placename}</a> <br/>
                 {f.properties.num_works} works
               </Popup>
-            </Marker>
+            </CircleMarker>
           )}
         </MapContainer>
       }

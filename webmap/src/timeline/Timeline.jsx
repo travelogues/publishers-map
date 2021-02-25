@@ -18,7 +18,12 @@ const Timeline = props => {
     100 * ((year - min) / (max - min))
 
   const onChange = value => {
-    setRange(value);
+    const sanitized = {
+      min: Math.max(min, value.min),
+      max: Math.min(max, value.max)
+    };
+
+    setRange(sanitized);
     props.onChange(value);
   }
 
