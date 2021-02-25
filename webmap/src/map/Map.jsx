@@ -1,9 +1,11 @@
 import bbox from '@turf/bbox';
 import { MapContainer, CircleMarker, Popup, TileLayer } from 'react-leaflet';
+import Legend from './Legend';
 
 import 'leaflet/dist/leaflet.css';
 
 import './Map.scss';
+
 
 const getBounds = geojson => {
   const bounds = bbox(geojson);
@@ -32,35 +34,52 @@ const Map = ({ data, timerange }) => {
     return Math.max(5, works / 2.5);
   }
 
-  const style = {
+  const isOrient = feature => {
+    // Helper: extracts the markers for works in the current range
+    const getMarkersInRange = feature => {
+      const worksInRange = feature.records.filter(w => w.year >= timerange.min && w.year <= timerange.max);
+      return new Set(worksInRange.reduce((acc, w) => acc.concat(w.markers), []));
+    }
+
+    const markers = timerange ? getMarkersInRange(feature) :
+      new Set(feature.records.reduce((acc, f) => acc.concat(f.markers), []));
+
+    return markers.has('Orient');
+  }
+
+  const getStyle = feature => ({
     stroke: true,
     color: '#000',
-    weight: 2,
+    weight: 1.5,
     opacity: 1,
     fill: true,
-    fillColor: '#fff',
+    fillColor: isOrient(feature) ? '#ff9a1e' : '#b7b7b7',
     fillOpacity: 1
-  }
+  });
 
   return (
     <>
       { featuresToDisplay &&
-        <MapContainer bounds={getBounds(data)}>
-          <TileLayer url="https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}" />
+        <>
+          <MapContainer bounds={getBounds(data)} preferCanvas={true}>
+            <TileLayer url="https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}" />
 
-          { featuresToDisplay.map((f, idx) =>
-            <CircleMarker 
-              key={idx} 
-              center={f.geometry.coordinates.slice().reverse()}
-              radius={getRadius(f)}
-              pathOptions={style}>
-              <Popup>
-                <a href={f.properties.geonames_uri}>{f.properties.placename}</a> <br/>
-                {f.properties.num_works} works
-              </Popup>
-            </CircleMarker>
-          )}
-        </MapContainer>
+            { featuresToDisplay.map((f, idx) =>
+              <CircleMarker 
+                key={idx} 
+                center={f.geometry.coordinates.slice().reverse()}
+                radius={getRadius(f)}
+                pathOptions={getStyle(f)}>
+                <Popup>
+                  <a href={f.properties.geonames_uri}>{f.properties.placename}</a> <br/>
+                  {f.properties.num_works} works
+                </Popup>
+              </CircleMarker>
+            )}
+          </MapContainer>
+
+          <Legend />
+        </>
       }
     </>
   )
