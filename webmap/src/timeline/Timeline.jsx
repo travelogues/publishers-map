@@ -7,11 +7,12 @@ import './Timeline.scss';
 import 'react-input-range/lib/css/index.css';
 
 const Timeline = ({ data }) => {
-
-  const [ range, setRange ] = useState({ min: 0, max: 20});
-
+  
+  // Start and end years
   const min = data[0];
   const max = data[data.length - 1];
+
+  const [ range, setRange ] = useState({ min, max});
 
   const getLeftPct = year =>
     100 * ((year - min) / (max - min))
@@ -28,8 +29,8 @@ const Timeline = ({ data }) => {
         </div>
         <InputRange
           draggableTrack
-          minValue={0}
-          maxValue={20}
+          minValue={min}
+          maxValue={max}
           value={range}
           onChange={value => setRange(value)} />
       </div>

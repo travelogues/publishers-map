@@ -3,6 +3,12 @@
   border-radius:3px;
   box-shadow:0 0 8px rgba(0,0,0,0.4);
   padding:0 40px;
+  -webkit-touch-callout:none; 
+    -webkit-user-select:none;
+     -khtml-user-select:none;
+       -moz-user-select:none;
+        -ms-user-select:none; 
+            user-select:none; 
   
   .t6e-timeline-inner {
     padding:34px 0;
@@ -129,9 +135,17 @@
   }
 
   .input-range__label {
-    font-size:40px;
-    color:#000;
     top:-42px;
+
+    .input-range__label-container {
+      font-family:Arial, Helvetica, sans-serif;
+      background-color:#fff;
+      padding:4px 6px;
+      font-size:17px;
+      color:#000;    
+      border-radius:3px;
+      box-shadow:0 0 6px rgba(0,0,0,0.4);
+    }
   }
 
 }
