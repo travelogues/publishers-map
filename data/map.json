@@ -13,7 +13,9 @@
       "properties": {
         "placename": "Nürnberg",
         "geonames_uri": "http://sws.geonames.org/2861650",
-        "num_works": 45
+        "num_works": 45,
+        "earliest": 1508,
+        "latest": 1789
       },
       "records": [
         {
@@ -752,7 +754,9 @@
       "properties": {
         "placename": "Frankfurt am Main",
         "geonames_uri": "http://sws.geonames.org/2925533",
-        "num_works": 106
+        "num_works": 106,
+        "earliest": 1556,
+        "latest": 1790
       },
       "records": [
         {
@@ -2462,7 +2466,9 @@
       "properties": {
         "placename": "Dillingen a.d. Donau",
         "geonames_uri": "http://sws.geonames.org/2936974",
-        "num_works": 3
+        "num_works": 3,
+        "earliest": 1587,
+        "latest": 1601
       },
       "records": [
         {
@@ -2524,7 +2530,9 @@
       "properties": {
         "placename": "Basel",
         "geonames_uri": "http://sws.geonames.org/2661604",
-        "num_works": 4
+        "num_works": 4,
+        "earliest": 1545,
+        "latest": 1609
       },
       "records": [
         {
@@ -2605,7 +2613,9 @@
       "properties": {
         "placename": "Augsburg",
         "geonames_uri": "http://sws.geonames.org/2954172",
-        "num_works": 33
+        "num_works": 33,
+        "earliest": 1505,
+        "latest": 1736
       },
       "records": [
         {
@@ -3168,7 +3178,9 @@
       "properties": {
         "placename": "Köln",
         "geonames_uri": "http://sws.geonames.org/2886242",
-        "num_works": 4
+        "num_works": 4,
+        "earliest": 1596,
+        "latest": 1606
       },
       "records": [
         {
@@ -3249,7 +3261,9 @@
       "properties": {
         "placename": "Freiburg im Üechtland",
         "geonames_uri": "http://sws.geonames.org/2660718",
-        "num_works": 2
+        "num_works": 2,
+        "earliest": 1590,
+        "latest": 1592
       },
       "records": [
         {
@@ -3299,7 +3313,9 @@
       "properties": {
         "placename": "Wien",
         "geonames_uri": "http://sws.geonames.org/2761369",
-        "num_works": 37
+        "num_works": 37,
+        "earliest": 1531,
+        "latest": 1820
       },
       "records": [
         {
@@ -3917,7 +3933,9 @@
       "properties": {
         "placename": "Halle (Saale)",
         "geonames_uri": "http://sws.geonames.org/2911522",
-        "num_works": 2
+        "num_works": 2,
+        "earliest": 1598,
+        "latest": 1801
       },
       "records": [
         {
@@ -3967,7 +3985,9 @@
       "properties": {
         "placename": "Hagenau",
         "geonames_uri": "http://sws.geonames.org/3014078",
-        "num_works": 1
+        "num_works": 1,
+        "earliest": 1577,
+        "latest": 1577
       },
       "records": [
         {
@@ -3999,7 +4019,9 @@
       "properties": {
         "placename": "Zürich",
         "geonames_uri": "http://sws.geonames.org/2657896",
-        "num_works": 5
+        "num_works": 5,
+        "earliest": 1545,
+        "latest": 1800
       },
       "records": [
         {
@@ -4098,7 +4120,9 @@
       "properties": {
         "placename": "Zerbst/Anhalt",
         "geonames_uri": "http://sws.geonames.org/2804748",
-        "num_works": 1
+        "num_works": 1,
+        "earliest": 1584,
+        "latest": 1584
       },
       "records": [
         {
@@ -4132,7 +4156,9 @@
       "properties": {
         "placename": "Leipzig",
         "geonames_uri": "http://sws.geonames.org/2879139",
-        "num_works": 54
+        "num_works": 54,
+        "earliest": 1579,
+        "latest": 1812
       },
       "records": [
         {
@@ -5003,7 +5029,9 @@
       "properties": {
         "placename": "Straßburg",
         "geonames_uri": "http://sws.geonames.org/2973783",
-        "num_works": 8
+        "num_works": 8,
+        "earliest": 1509,
+        "latest": 1790
       },
       "records": [
         {
@@ -5151,7 +5179,9 @@
       "properties": {
         "placename": "Güstrow",
         "geonames_uri": "http://sws.geonames.org/2913433",
-        "num_works": 1
+        "num_works": 1,
+        "earliest": 1582,
+        "latest": 1582
       },
       "records": [
         {
@@ -5185,7 +5215,9 @@
       "properties": {
         "placename": "Lauingen (Donau)",
         "geonames_uri": "http://sws.geonames.org/2880099",
-        "num_works": 2
+        "num_works": 2,
+        "earliest": 1582,
+        "latest": 1583
       },
       "records": [
         {
@@ -5234,7 +5266,9 @@
       "properties": {
         "placename": "Görlitz",
         "geonames_uri": "http://sws.geonames.org/2918987",
-        "num_works": 4
+        "num_works": 4,
+        "earliest": 1580,
+        "latest": 1591
       },
       "records": [
         {
@@ -5319,7 +5353,9 @@
       "properties": {
         "placename": "Oppenheim",
         "geonames_uri": "http://sws.geonames.org/2857167",
-        "num_works": 10
+        "num_works": 10,
+        "earliest": 1509,
+        "latest": 1627
       },
       "records": [
         {
@@ -5501,7 +5537,9 @@
       "properties": {
         "placename": "Marburg",
         "geonames_uri": "http://sws.geonames.org/2873759",
-        "num_works": 2
+        "num_works": 2,
+        "earliest": 1557,
+        "latest": 1557
       },
       "records": [
         {
@@ -5548,7 +5586,9 @@
       "properties": {
         "placename": "Ingolstadt",
         "geonames_uri": "http://sws.geonames.org/2895992",
-        "num_works": 4
+        "num_works": 4,
+        "earliest": 1586,
+        "latest": 1622
       },
       "records": [
         {
@@ -5625,7 +5665,9 @@
       "properties": {
         "placename": "Antwerpen",
         "geonames_uri": "http://sws.geonames.org/2803138",
-        "num_works": 1
+        "num_works": 1,
+        "earliest": 1576,
+        "latest": 1576
       },
       "records": [
         {
@@ -5660,7 +5702,9 @@
       "properties": {
         "placename": "Hanau",
         "geonames_uri": "http://sws.geonames.org/2911007",
-        "num_works": 3
+        "num_works": 3,
+        "earliest": 1617,
+        "latest": 1630
       },
       "records": [
         {
@@ -5726,7 +5770,9 @@
       "properties": {
         "placename": "Rothenburg ob der Tauber",
         "geonames_uri": "http://sws.geonames.org/2844056",
-        "num_works": 1
+        "num_works": 1,
+        "earliest": 1682,
+        "latest": 1682
       },
       "records": [
         {
@@ -5759,7 +5805,9 @@
       "properties": {
         "placename": "Bern",
         "geonames_uri": "http://sws.geonames.org/2661552",
-        "num_works": 3
+        "num_works": 3,
+        "earliest": 1669,
+        "latest": 1781
       },
       "records": [
         {
@@ -5825,7 +5873,9 @@
       "properties": {
         "placename": "Heidelberg",
         "geonames_uri": "http://sws.geonames.org/2907911",
-        "num_works": 2
+        "num_works": 2,
+        "earliest": 1610,
+        "latest": 1613
       },
       "records": [
         {
@@ -5875,7 +5925,9 @@
       "properties": {
         "placename": "Schloss Bevern",
         "geonames_uri": "http://sws.geonames.org/2949489",
-        "num_works": 1
+        "num_works": 1,
+        "earliest": 1678,
+        "latest": 1678
       },
       "records": [
         {
@@ -5907,7 +5959,9 @@
       "properties": {
         "placename": "Amsterdam",
         "geonames_uri": "http://sws.geonames.org/2759794",
-        "num_works": 9
+        "num_works": 9,
+        "earliest": 1666,
+        "latest": 1678
       },
       "records": [
         {
@@ -6067,7 +6121,9 @@
       "properties": {
         "placename": "Schleswig",
         "geonames_uri": "http://sws.geonames.org/2838634",
-        "num_works": 4
+        "num_works": 4,
+        "earliest": 1647,
+        "latest": 1669
       },
       "records": [
         {
@@ -6153,7 +6209,9 @@
       "properties": {
         "placename": "Genf",
         "geonames_uri": "http://sws.geonames.org/2660646",
-        "num_works": 7
+        "num_works": 7,
+        "earliest": 1674,
+        "latest": 1681
       },
       "records": [
         {
@@ -6284,7 +6342,9 @@
       "properties": {
         "placename": "München",
         "geonames_uri": "http://sws.geonames.org/2867714",
-        "num_works": 6
+        "num_works": 6,
+        "earliest": 1608,
+        "latest": 1814
       },
       "records": [
         {
@@ -6400,7 +6460,9 @@
       "properties": {
         "placename": "Oldenburg (Oldenburg)",
         "geonames_uri": "http://sws.geonames.org/2857458",
-        "num_works": 1
+        "num_works": 1,
+        "earliest": 1664,
+        "latest": 1664
       },
       "records": [
         {
@@ -6432,7 +6494,9 @@
       "properties": {
         "placename": "Arnheim",
         "geonames_uri": "http://sws.geonames.org/2759661",
-        "num_works": 2
+        "num_works": 2,
+        "earliest": 1601,
+        "latest": 1618
       },
       "records": [
         {
@@ -6484,7 +6548,9 @@
       "properties": {
         "placename": "Jena",
         "geonames_uri": "http://sws.geonames.org/2895044",
-        "num_works": 14
+        "num_works": 14,
+        "earliest": 1668,
+        "latest": 1820
       },
       "records": [
         {
@@ -6737,7 +6803,9 @@
       "properties": {
         "placename": "Bayreuth",
         "geonames_uri": "http://sws.geonames.org/2951825",
-        "num_works": 1
+        "num_works": 1,
+        "earliest": 1676,
+        "latest": 1676
       },
       "records": [
         {
@@ -6769,7 +6837,9 @@
       "properties": {
         "placename": "Helmstedt",
         "geonames_uri": "http://sws.geonames.org/2906676",
-        "num_works": 2
+        "num_works": 2,
+        "earliest": 1679,
+        "latest": 1687
       },
       "records": [
         {
@@ -6819,7 +6889,9 @@
       "properties": {
         "placename": "Tübingen",
         "geonames_uri": "http://sws.geonames.org/2820860",
-        "num_works": 3
+        "num_works": 3,
+        "earliest": 1603,
+        "latest": 1607
       },
       "records": [
         {
@@ -6884,7 +6956,9 @@
       "properties": {
         "placename": "Hamburg",
         "geonames_uri": "http://sws.geonames.org/2911298",
-        "num_works": 11
+        "num_works": 11,
+        "earliest": 1658,
+        "latest": 1817
       },
       "records": [
         {
@@ -7074,7 +7148,9 @@
       "properties": {
         "placename": "Würzburg",
         "geonames_uri": "http://sws.geonames.org/2805615",
-        "num_works": 2
+        "num_works": 2,
+        "earliest": 1604,
+        "latest": 1667
       },
       "records": [
         {
@@ -7125,7 +7201,9 @@
       "properties": {
         "placename": "Ulm",
         "geonames_uri": "http://sws.geonames.org/2820256",
-        "num_works": 3
+        "num_works": 3,
+        "earliest": 1627,
+        "latest": 1692
       },
       "records": [
         {
@@ -7187,7 +7265,9 @@
       "properties": {
         "placename": "Lübeck",
         "geonames_uri": "http://sws.geonames.org/2875601",
-        "num_works": 1
+        "num_works": 1,
+        "earliest": 1652,
+        "latest": 1652
       },
       "records": [
         {
@@ -7221,7 +7301,9 @@
       "properties": {
         "placename": "Konstanz",
         "geonames_uri": "http://sws.geonames.org/2885679",
-        "num_works": 2
+        "num_works": 2,
+        "earliest": 1603,
+        "latest": 1603
       },
       "records": [
         {
@@ -7270,7 +7352,9 @@
       "properties": {
         "placename": "Mainz",
         "geonames_uri": "http://sws.geonames.org/2874225",
-        "num_works": 1
+        "num_works": 1,
+        "earliest": 1603,
+        "latest": 1603
       },
       "records": [
         {
@@ -7304,7 +7388,9 @@
       "properties": {
         "placename": "Magdeburg",
         "geonames_uri": "http://sws.geonames.org/2874545",
-        "num_works": 2
+        "num_works": 2,
+        "earliest": 1605,
+        "latest": 1753
       },
       "records": [
         {
@@ -7355,7 +7441,9 @@
       "properties": {
         "placename": "Brixen",
         "geonames_uri": "http://sws.geonames.org/3181550",
-        "num_works": 1
+        "num_works": 1,
+        "earliest": 1696,
+        "latest": 1696
       },
       "records": [
         {
@@ -7387,7 +7475,9 @@
       "properties": {
         "placename": "Gera",
         "geonames_uri": "http://sws.geonames.org/2921232",
-        "num_works": 1
+        "num_works": 1,
+        "earliest": 1675,
+        "latest": 1675
       },
       "records": [
         {
@@ -7421,7 +7511,9 @@
       "properties": {
         "placename": "Altenburg",
         "geonames_uri": "http://sws.geonames.org/2957773",
-        "num_works": 2
+        "num_works": 2,
+        "earliest": 1609,
+        "latest": 1800
       },
       "records": [
         {
@@ -7469,7 +7561,9 @@
       "properties": {
         "placename": "Stuttgart",
         "geonames_uri": "http://sws.geonames.org/2825297",
-        "num_works": 1
+        "num_works": 1,
+        "earliest": 1659,
+        "latest": 1659
       },
       "records": [
         {
@@ -7504,7 +7598,9 @@
       "properties": {
         "placename": "Sulzbach-Rosenberg",
         "geonames_uri": "http://sws.geonames.org/2824801",
-        "num_works": 1
+        "num_works": 1,
+        "earliest": 1686,
+        "latest": 1686
       },
       "records": [
         {
@@ -7536,7 +7632,9 @@
       "properties": {
         "placename": "Zittau",
         "geonames_uri": "http://sws.geonames.org/2804008",
-        "num_works": 1
+        "num_works": 1,
+        "earliest": 1693,
+        "latest": 1693
       },
       "records": [
         {
@@ -7568,7 +7666,9 @@
       "properties": {
         "placename": "Idstein",
         "geonames_uri": "http://sws.geonames.org/2896736",
-        "num_works": 1
+        "num_works": 1,
+        "earliest": 1720,
+        "latest": 1720
       },
       "records": [
         {
@@ -7601,7 +7701,9 @@
       "properties": {
         "placename": "Eisenach",
         "geonames_uri": "http://sws.geonames.org/2931574",
-        "num_works": 1
+        "num_works": 1,
+        "earliest": 1721,
+        "latest": 1721
       },
       "records": [
         {
@@ -7635,7 +7737,9 @@
       "properties": {
         "placename": "Graz",
         "geonames_uri": "http://sws.geonames.org/2778067",
-        "num_works": 2
+        "num_works": 2,
+        "earliest": 1729,
+        "latest": 1729
       },
       "records": [
         {
@@ -7685,7 +7789,9 @@
       "properties": {
         "placename": "Prag",
         "geonames_uri": "http://sws.geonames.org/3067696",
-        "num_works": 1
+        "num_works": 1,
+        "earliest": 1729,
+        "latest": 1729
       },
       "records": [
         {
@@ -7720,7 +7826,9 @@
       "properties": {
         "placename": "Dresden",
         "geonames_uri": "http://sws.geonames.org/2935022",
-        "num_works": 1
+        "num_works": 1,
+        "earliest": 1737,
+        "latest": 1737
       },
       "records": [
         {
@@ -7752,7 +7860,9 @@
       "properties": {
         "placename": "Göttingen",
         "geonames_uri": "http://sws.geonames.org/2918632",
-        "num_works": 3
+        "num_works": 3,
+        "earliest": 1751,
+        "latest": 1798
       },
       "records": [
         {
@@ -7819,7 +7929,9 @@
       "properties": {
         "placename": "Erlangen",
         "geonames_uri": "http://sws.geonames.org/2929567",
-        "num_works": 4
+        "num_works": 4,
+        "earliest": 1754,
+        "latest": 1792
       },
       "records": [
         {
@@ -7902,7 +8014,9 @@
       "properties": {
         "placename": "Berlin",
         "geonames_uri": "http://sws.geonames.org/2950159",
-        "num_works": 20
+        "num_works": 20,
+        "earliest": 1763,
+        "latest": 1815
       },
       "records": [
         {
@@ -8234,7 +8348,9 @@
       "properties": {
         "placename": "Kopenhagen",
         "geonames_uri": "http://sws.geonames.org/2618425",
-        "num_works": 3
+        "num_works": 3,
+        "earliest": 1772,
+        "latest": 1778
       },
       "records": [
         {
@@ -8299,7 +8415,9 @@
       "properties": {
         "placename": "Sankt Petersburg",
         "geonames_uri": "http://sws.geonames.org/498817",
-        "num_works": 4
+        "num_works": 4,
+        "earliest": 1774,
+        "latest": 1803
       },
       "records": [
         {
@@ -8382,7 +8500,9 @@
       "properties": {
         "placename": "Breslau",
         "geonames_uri": "http://sws.geonames.org/3081368",
-        "num_works": 1
+        "num_works": 1,
+        "earliest": 1779,
+        "latest": 1779
       },
       "records": [
         {
@@ -8415,7 +8535,9 @@
       "properties": {
         "placename": "Rostock",
         "geonames_uri": "http://sws.geonames.org/2844588",
-        "num_works": 1
+        "num_works": 1,
+        "earliest": 1779,
+        "latest": 1779
       },
       "records": [
         {
@@ -8447,7 +8569,9 @@
       "properties": {
         "placename": "Troppau",
         "geonames_uri": "http://sws.geonames.org/3068927",
-        "num_works": 3
+        "num_works": 3,
+        "earliest": 1784,
+        "latest": 1784
       },
       "records": [
         {
@@ -8517,7 +8641,9 @@
       "properties": {
         "placename": "Brünn",
         "geonames_uri": "http://sws.geonames.org/3078610",
-        "num_works": 3
+        "num_works": 3,
+        "earliest": 1789,
+        "latest": 1820
       },
       "records": [
         {
@@ -8584,7 +8710,9 @@
       "properties": {
         "placename": "Liegnitz",
         "geonames_uri": "http://sws.geonames.org/3093692",
-        "num_works": 1
+        "num_works": 1,
+        "earliest": 1801,
+        "latest": 1801
       },
       "records": [
         {
@@ -8618,7 +8746,9 @@
       "properties": {
         "placename": "Gotha",
         "geonames_uri": "http://sws.geonames.org/2918752",
-        "num_works": 1
+        "num_works": 1,
+        "earliest": 1801,
+        "latest": 1801
       },
       "records": [
         {
@@ -8651,7 +8781,9 @@
       "properties": {
         "placename": "Königsberg",
         "geonames_uri": "http://sws.geonames.org/554234",
-        "num_works": 1
+        "num_works": 1,
+        "earliest": 1801,
+        "latest": 1801
       },
       "records": [
         {
@@ -8685,7 +8817,9 @@
       "properties": {
         "placename": "Weimar",
         "geonames_uri": "http://sws.geonames.org/2812482",
-        "num_works": 10
+        "num_works": 10,
+        "earliest": 1802,
+        "latest": 1820
       },
       "records": [
         {
@@ -8866,7 +9000,9 @@
       "properties": {
         "placename": "Ronneburg",
         "geonames_uri": "http://sws.geonames.org/2845229",
-        "num_works": 1
+        "num_works": 1,
+        "earliest": 1802,
+        "latest": 1802
       },
       "records": [
         {
@@ -8899,7 +9035,9 @@
       "properties": {
         "placename": "Eisenberg",
         "geonames_uri": "http://sws.geonames.org/2931521",
-        "num_works": 1
+        "num_works": 1,
+        "earliest": 1802,
+        "latest": 1802
       },
       "records": [
         {
@@ -8932,7 +9070,9 @@
       "properties": {
         "placename": "Penig",
         "geonames_uri": "http://sws.geonames.org/2854967",
-        "num_works": 3
+        "num_works": 3,
+        "earliest": 1804,
+        "latest": 1804
       },
       "records": [
         {
@@ -9000,7 +9140,9 @@
       "properties": {
         "placename": "Chemnitz",
         "geonames_uri": "http://sws.geonames.org/2940132",
-        "num_works": 3
+        "num_works": 3,
+        "earliest": 1804,
+        "latest": 1804
       },
       "records": [
         {
@@ -9068,7 +9210,9 @@
       "properties": {
         "placename": "Budapest",
         "geonames_uri": "http://sws.geonames.org/3054643",
-        "num_works": 2
+        "num_works": 2,
+        "earliest": 1810,
+        "latest": 1817
       },
       "records": [
         {
@@ -9117,7 +9261,9 @@
       "properties": {
         "placename": "Karlsruhe",
         "geonames_uri": "http://sws.geonames.org/2892794",
-        "num_works": 1
+        "num_works": 1,
+        "earliest": 1811,
+        "latest": 1811
       },
       "records": [
         {
@@ -9150,7 +9296,9 @@
       "properties": {
         "placename": "Landshut",
         "geonames_uri": "http://sws.geonames.org/2881485",
-        "num_works": 1
+        "num_works": 1,
+        "earliest": 1812,
+        "latest": 1812
       },
       "records": [
         {
@@ -9183,7 +9331,9 @@
       "properties": {
         "placename": "Sankt Gallen",
         "geonames_uri": "http://sws.geonames.org/2658822",
-        "num_works": 4
+        "num_works": 4,
+        "earliest": 1815,
+        "latest": 1820
       },
       "records": [
         {

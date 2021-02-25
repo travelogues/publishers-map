@@ -97,6 +97,11 @@ Promise.all([ fLoadGeoLocations, ...fLoadMetadata ]).then(result => {
   for (const [key, value] of Object.entries(recordIndex)) {
     const place = geolocations.find(g => g.Ort === key.trim());
 
+    const years = value.map(r => r.year).slice().sort();
+
+    const earliest = years[0];
+    const latest = years[years.length - 1];
+
     mapData.features.push({
       type: 'Feature',
       geometry: {
@@ -106,7 +111,9 @@ Promise.all([ fLoadGeoLocations, ...fLoadMetadata ]).then(result => {
       properties: { 
         placename: key,
         geonames_uri: place.GeoNames,
-        num_works: value.length
+        num_works: value.length,
+        earliest,
+        latest
       },
       records: value
     });

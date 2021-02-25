@@ -26,9 +26,11 @@ const SetBounds = ({ data }) => {
   return null;
 }
 
-const Map = ({ data }) => {
+const Map = ({ data, timerange }) => {
 
   const points = data?.features.filter(f => f?.geometry.type === 'Point');
+
+  console.log(points);
 
   return (
     <MapContainer>

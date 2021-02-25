@@ -1,8 +1,9 @@
+import { useState } from 'react';
 import Map from './map/Map';
 import useSWR from 'swr';
+import Timeline from './timeline/Timeline';
 
 import './App.css';
-import Timeline from './timeline/Timeline';
 
 const computeTimeline = data => {
   const reducer = (acc, feature) => {
@@ -20,13 +21,14 @@ const App = () => {
 
   const { data } = useSWR('/map.json', url => fetch(url).then(r => r.json()));
 
-  const onChange = range => {
-    console.log(range);
-  }
+  const [ timerange, setTimerange ] = useState();
+
+  const onChange = range =>
+    setTimerange(range);
 
   return (
     <div className="App">
-      <Map data={data} />
+      <Map data={data} timerange={timerange} />
       { data && 
         <Timeline data={computeTimeline(data)} onChange={onChange} />
       }
