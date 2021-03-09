@@ -35,14 +35,18 @@
       background-color:grey;
       vertical-align:text-bottom;
       border-radius:100%;
-    }
-
-    .dot.orient {
-      background-color:#ff9a1e;
-    }
-
-    .dot.non-orient {
       background-color:#b7b7b7;
+      cursor:pointer;
     }
+
+    .dot:hover {
+      background-color:#ff9a1e;      
+    }
+  
   }
+
+  tr.selected .dot {
+    background-color:#ff9a1e;
+  }
+
 }

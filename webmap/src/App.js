@@ -1,7 +1,8 @@
 import { useState } from 'react';
-import Map from './map/Map';
 import useSWR from 'swr';
+import Map from './map/Map';
 import Timeline from './timeline/Timeline';
+import FeatureIndex from './FeatureIndex';
 
 import './App.css';
 
@@ -23,12 +24,14 @@ const App = () => {
 
   const [ timerange, setTimerange ] = useState();
 
+  const index = data ? new FeatureIndex(data) : null;
+
   const onChange = range =>
     setTimerange(range);
 
   return (
     <div className="App">
-      <Map data={data} timerange={timerange} />
+      <Map data={data} index={index} timerange={timerange} />
       { data && 
         <Timeline data={computeTimeline(data)} onChange={onChange} />
       }

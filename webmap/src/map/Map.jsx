@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import bbox from '@turf/bbox';
 import { MapContainer, CircleMarker, Popup, TileLayer } from 'react-leaflet';
 import Legend from './Legend';
@@ -15,7 +16,9 @@ const getBounds = geojson => {
   ];
 }
 
-const Map = ({ data, timerange }) => {
+const Map = ({ data, index, timerange }) => {
+
+  const [ selectedMarker, setSelectedMarker ] = useState();
 
   const allFeatures = data?.features.filter(f => f?.geometry.type === 'Point');
 
@@ -78,7 +81,10 @@ const Map = ({ data, timerange }) => {
             )}
           </MapContainer>
 
-          <Legend />
+          <Legend
+            index={index} 
+            selected={selectedMarker}
+            onSelect={marker => setSelectedMarker(marker) }/>
         </>
       }
     </>
