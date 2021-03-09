@@ -63,7 +63,7 @@ const Map = ({ data, index, timerange }) => {
       allWorks.filter(r => r.markers.includes(selectedMarker)) : allWorks;
 
     const outer = Math.max(3, allWorks.length / 2.5);
-    const inner = Math.max(3, worksWithMarker.length / 2.5);
+    const inner = worksWithMarker.length > 0 ? Math.max(3, worksWithMarker.length / 2.5) : 0;
     
     return { outer, inner };
   }
