@@ -7,6 +7,20 @@ import 'leaflet/dist/leaflet.css';
 
 import './Map.scss';
 
+const STYLE_OUTER = {
+  stroke: true,
+  color: '#4e4e4e',
+  weight: 1.5,
+  opacity: 1,
+  fill: true,
+  fillColor: '#b7b7b7',
+  fillOpacity: 1
+};
+
+const STYLE_INNER = {...STYLE_OUTER, 
+  color: '#bf7814',
+  fillColor: '#ff9a1e' 
+};
 
 const getBounds = geojson => {
   const bounds = bbox(geojson);
@@ -28,17 +42,7 @@ const Map = ({ data, index, timerange }) => {
     return earliest <= max && latest >= min; 
   }) : allFeatures;
 
-  // TODO make min/max scale dynamic, based on the values in the data
-  const getRadius = feature => {
-    const works = timerange ? feature.records
-      .map(r => r.year)
-      .filter(y => y >= timerange.min && y <= timerange.max).length : feature.properties.num_works;
-
-    return Math.max(5, works / 2.5);
-  }
-
-  const isOrient = feature => {
-    // Helper: extracts the markers for works in the current range
+  const hasSelectedMarker = feature => {
     const getMarkersInRange = feature => {
       const worksInRange = feature.records.filter(w => w.year >= timerange.min && w.year <= timerange.max);
       return new Set(worksInRange.reduce((acc, w) => acc.concat(w.markers), []));
@@ -47,18 +51,22 @@ const Map = ({ data, index, timerange }) => {
     const markers = timerange ? getMarkersInRange(feature) :
       new Set(feature.records.reduce((acc, f) => acc.concat(f.markers), []));
 
-    return markers.has('Orient');
+    return markers.has(selectedMarker);
   }
 
-  const getStyle = feature => ({
-    stroke: true,
-    color: '#000',
-    weight: 1.5,
-    opacity: 1,
-    fill: true,
-    fillColor: isOrient(feature) ? '#ff9a1e' : '#b7b7b7',
-    fillOpacity: 1
-  });
+  // TODO make min/max scale dynamic, based on the values in the data
+  const getRadius = feature => {
+    const allWorks = timerange ? feature.records
+      .filter(r => r.year >= timerange.min && r.year <= timerange.max) : feature.records;
+
+    const worksWithMarker = selectedMarker ? 
+      allWorks.filter(r => r.markers.includes(selectedMarker)) : allWorks;
+
+    const outer = Math.max(5, allWorks.length / 2.5);
+    const inner = worksWithMarker.length / 2.5;
+    
+    return { outer, inner };
+  }
 
   return (
     <>
@@ -67,18 +75,30 @@ const Map = ({ data, index, timerange }) => {
           <MapContainer bounds={getBounds(data)} preferCanvas={true}>
             <TileLayer url="https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}" />
 
-            { featuresToDisplay.map((f, idx) =>
-              <CircleMarker 
-                key={idx} 
-                center={f.geometry.coordinates.slice().reverse()}
-                radius={getRadius(f)}
-                pathOptions={getStyle(f)}>
-                <Popup>
-                  <a href={f.properties.geonames_uri}>{f.properties.placename}</a> <br/>
-                  {f.properties.num_works} works
-                </Popup>
-              </CircleMarker>
-            )}
+            { featuresToDisplay.map((f, idx) => {
+              const { outer, inner } = getRadius(f);
+              return (
+                <>
+                  <CircleMarker
+                    key={`${idx}-outer`}
+                    center={f.geometry.coordinates.slice().reverse()}
+                    radius={outer}
+                    pathOptions={STYLE_OUTER} />
+
+                  { selectedMarker && inner > 0 && <CircleMarker 
+                      key={`${idx}-inner`} 
+                      center={f.geometry.coordinates.slice().reverse()}
+                      radius={inner}
+                      pathOptions={STYLE_INNER}>
+                      <Popup>
+                        <a href={f.properties.geonames_uri}>{f.properties.placename}</a> <br/>
+                        {f.properties.num_works} works
+                      </Popup>
+                    </CircleMarker>
+                  }
+                </>
+              )
+            })}
           </MapContainer>
 
           <Legend

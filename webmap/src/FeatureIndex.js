@@ -14,7 +14,7 @@ export default class FeatureIndex {
 
   constructor(geojson) {
     const features = geojson.features.filter(f => f?.geometry.type === 'Point');
-    
+
     // Index features by metadata marker
     const byMarker = {};
 
@@ -38,7 +38,7 @@ export default class FeatureIndex {
   } 
 
   get markers() {
-    return Object.keys(this._byMarker);
+    return Object.keys(this._byMarker).slice().sort();
 
   }
   
