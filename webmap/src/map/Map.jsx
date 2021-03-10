@@ -34,7 +34,9 @@ const getBounds = geojson => {
 }
 
 /** Helper, so we only compute k & d once, not for every marker **/
-const radiusFn = (minWorks, maxWorks) => {
+const radiusFn = index => {
+  const { minWorks, maxWorks } = index;
+
   const k = (MAX_MARKER_SIZE - MIN_MARKER_SIZE) / (maxWorks - minWorks);
   const d = MIN_MARKER_SIZE - k * minWorks;
 
@@ -47,9 +49,7 @@ const Map = ({ data, index, timerange }) => {
 
   const allFeatures = data?.features.filter(f => f?.geometry.type === 'Point');
 
-  const { minWorks, maxWorks } = index;
-
-  const getRadius = radiusFn(minWorks, maxWorks);
+  const getRadius = index && radiusFn(index);
 
   const featuresToDisplay = timerange ? allFeatures.filter(f => {
     const { min, max } = timerange;

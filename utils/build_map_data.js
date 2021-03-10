@@ -57,7 +57,7 @@ Promise.all([ fLoadGeoLocations, ...fLoadMetadata ]).then(result => {
     const year = parseInt(record['Erscheinungsjahr Sortierform']);
     
     const markers = Array.from(new Set(
-      record['Marker'].split(/[\s;]/g)
+      record['Marker'].split(/[\s;\$]/g)
         .filter(token => token.length > 0)
     ));
 
