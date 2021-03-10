@@ -1,0 +1,75 @@
+Altenburg
+Amsterdam
+Antwerpen
+Arnheim
+Augsburg
+Basel
+Bayreuth
+Berlin
+Bern
+Breslau
+Brixen
+Brünn
+Budapest
+Chemnitz
+Dillingen a.d. Donau
+Dresden
+Eisenach
+Eisenberg
+Erlangen
+Frankfurt am Main
+Freiburg im Üechtland
+Genf
+Gera
+Gotha
+Graz
+Görlitz
+Göttingen
+Güstrow
+Hagenau
+Halle (Saale)
+Hamburg
+Hanau
+Heidelberg
+Helmstedt
+Idstein
+Ingolstadt
+Jena
+Karlsruhe
+Konstanz
+Kopenhagen
+Köln
+Königsberg
+Landshut
+Lauingen (Donau)
+Leipzig
+Liegnitz
+Lübeck
+Magdeburg
+Mainz
+Marburg
+München
+Nürnberg
+Oldenburg (Oldenburg)
+Oppenheim
+Penig
+Prag
+Ronneburg
+Rostock
+Rothenburg ob der Tauber
+Sankt Gallen
+Sankt Petersburg
+Schleswig
+Schloss Bevern
+Straßburg
+Stuttgart
+Sulzbach-Rosenberg
+Troppau
+Tübingen
+Ulm
+Weimar
+Wien
+Würzburg
+Zerbst/Anhalt
+Zittau
+Zürich

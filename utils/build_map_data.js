@@ -7,10 +7,10 @@ const Papa = require('papaparse');
  */
 
 METADATA = [
-  '../../intertextuality/metadata/TravelogueD16_2020-06-09.csv',
-  '../../intertextuality/metadata/TravelogueD17_2020-06-10.csv',
-  '../../intertextuality/metadata/TravelogueD18_Orient_2020-11-12.csv',
-  '../../intertextuality/metadata/TravelogueD19_1800-1820_Orient_2020-11-12.csv'
+  '../data/source/TravelogueD16_ALMAoutput_20210304.csv',
+  '../data/source/TravelogueD17_ALMAoutput_20210304.csv',
+  '../data/source/TravelogueD18_ALMAoutput_20210304.csv',
+  '../data/source/TravelogueD19-1800-1850_ALMAoutput_20210903.csv'
 ];
 
 GEOLOCATIONS = '../data/unique_places_geocoded.csv';
@@ -102,23 +102,30 @@ Promise.all([ fLoadGeoLocations, ...fLoadMetadata ]).then(result => {
     const earliest = years[0];
     const latest = years[years.length - 1];
 
-    mapData.features.push({
-      type: 'Feature',
-      geometry: {
-        type: 'Point',
-        coordinates: [ parseFloat(place.Lon), parseFloat(place.Lat) ]
-      },
-      properties: { 
-        placename: key,
-        geonames_uri: place.GeoNames,
-        num_works: value.length,
-        earliest,
-        latest
-      },
-      records: value
-    });
+    try {
+      mapData.features.push({
+        type: 'Feature',
+        geometry: {
+          type: 'Point',
+          coordinates: [ parseFloat(place.Lon), parseFloat(place.Lat) ]
+        },
+        properties: { 
+          placename: key,
+          geonames_uri: place.GeoNames,
+          num_works: value.length,
+          earliest,
+          latest
+        },
+        records: value
+      });
+    } catch (error) {
+      console.log('ERROR', JSON.stringify(key));
+      throw error;
+    }
   }
 
   // Step 4 - write results
   fs.writeFile(OUTFILE, JSON.stringify(mapData, null, 2), 'utf8', () => console.log('Done.'));
-}).catch(error => console.log(error));
+}).catch(error => { 
+  console.log(error)
+});

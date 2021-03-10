@@ -1,3 +1,4 @@
+Ort,Lat,Lon,GeoNames
 Aachen
 Aarau
 Altdorf

@@ -2,42 +2,23 @@ const fs = require('fs');
 const Papa = require('papaparse');
 
 SOURCE_FILES = [
-  '../../intertextuality/metadata/TravelogueD16_2020-06-09.csv',
-  '../../intertextuality/metadata/TravelogueD17_2020-06-10.csv',
-  '../../intertextuality/metadata/TravelogueD18_Orient_2020-11-12.csv',
-  '../../intertextuality/metadata/TravelogueD19_1800-1820_Orient_2020-11-12.csv'
+  '../data/source/TravelogueD16_ALMAoutput_20210304.csv',
+  '../data/source/TravelogueD17_ALMAoutput_20210304.csv',
+  '../data/source/TravelogueD18_ALMAoutput_20210304.csv',
+  '../data/source/TravelogueD19-1800-1850_ALMAoutput_20210903.csv'
 ];
 
 OUTFILE = '../data/unique_places.txt';
-
-/**
- * Normalizes a placenamen, fixing the most common patterns in the data
- */
-const normalizePrinted = str => {
-  // Various variations of 'gedruckt (und verlegt) in'
-  str = str.replace(/[Gg]e[dt]ruckh?[t/]?( vnn?d verlegt)?( z[uů]|in)?/g, '').trim();
-  str = str.replace(/verlegt/g, '').trim();
-
-  // Various variations of 'In'
-  str = str.replace(/([Ji]nn? |[Zz]u )/g, '').trim();
-
-  // Enclosing square brackets
-  if (/^\[(.*?)\]?/g.test(str)) {
-    str = str.replace(/^\[/g, '').trim();
-    str = str.replace(/\]$/g, '').trim();
-  }
-
-  // Royal fluff :-)
-  str = str.replace(/(der Churfürstlichen Stadt|der Fürstl: Statt|der [kK][ae][yi]serlichen Stat?t)/g, '').trim();
-  str = str.replace(/(der K[ae]yserliche\[?n\]? (Reychs Statt|Freystat))/g, '').trim();
-
-  return str;
-}
 
 const normalizeGND = str => {
   return str.split(';')[0].trim()
 }
 
+/**
+ * Reads metada CSV source files, and builds a list
+ * of all distinct places referenced in the 'Verlagsort normiert ; GND-ID' 
+ * and 'Druckort normiert ; GND-ID' columns.
+ */
 Promise.all(SOURCE_FILES.map(file =>
   new Promise((complete, error) =>
     Papa.parse(fs.createReadStream(file), {
@@ -60,6 +41,7 @@ Promise.all(SOURCE_FILES.map(file =>
           verlagsorte.add(normalized);
       });
     });
+
   });
 
   const sorted = Array.from(verlagsorte);
