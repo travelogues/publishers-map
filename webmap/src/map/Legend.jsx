@@ -8,7 +8,7 @@ const Legend = props => {
             className={props.selected === null ? 'selected' : null} 
             onClick={() => props.onSelect()}>
             <td>
-              <span className="dot orient"></span>
+              <span className="dot"></span>
             </td>
             <td>
               <label>All works</label>
@@ -21,7 +21,7 @@ const Legend = props => {
               className={props.selected === marker ? 'selected' : null}
               onClick={() => props.onSelect(marker)}>
               <td>
-                <span className="dot non-orient"></span>
+                <span className="dot"></span>
               </td>
               <td>
                 <label>{marker}</label>
