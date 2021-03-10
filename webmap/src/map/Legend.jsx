@@ -5,7 +5,7 @@ const Legend = props => {
       <table>
         <tbody>
           <tr
-            className={props.selected === null ? 'selected' : null} 
+            className={props.selected == null ? 'selected' : null} 
             onClick={() => props.onSelect()}>
             <td>
               <span className="dot"></span>
