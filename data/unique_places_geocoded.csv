@@ -19,6 +19,7 @@ Braunschweig,52.26594,10.52673,http://sws.geonames.org/2945024
 Bremen,53.07582,8.80717,http://sws.geonames.org/2944388
 Breslau,51.1,17.03333,http://sws.geonames.org/3081368
 Brixen,46.71503,11.65598,http://sws.geonames.org/3181550
+Bromberg,53.1235,18.00762,http://sws.geonames.org/3102014
 Brünn,49.19522,16.60796,http://sws.geonames.org/3078610
 Budapest,47.49835,19.04045,http://sws.geonames.org/3054643
 Bunzlau,51.26418,15.5697,http://sws.geonames.org/3102987
@@ -35,13 +36,14 @@ Eisenach,50.9807,10.31522,http://sws.geonames.org/2931574
 Eisenberg,50.9686,11.90207,http://sws.geonames.org/2931521
 Elberfeld,51.25083,7.14816,http://sws.geonames.org/2931276
 Elbing,54.1522,19.40884,http://sws.geonames.org/3099759
+Erfurt,50.9787,11.03283,http://sws.geonames.org/2929670
 Erlangen,49.59099,11.00783,http://sws.geonames.org/2929567
 Essen,51.45657,7.01228,http://sws.geonames.org/2928810
 Frankfurt (Oder),52.34714,14.55062,http://sws.geonames.org/2925535
 Frankfurt am Main,50.11552,8.68417,http://sws.geonames.org/2925533
 Freiberg,50.91089,13.33881,http://sws.geonames.org/2925192
 Freiburg im Üechtland,46.80237,7.15128,http://sws.geonames.org/2660718
-Fürth
+Fürth,49.47593,10.98856,http://sws.geonames.org/2923544
 Genf,46.20222,6.14569,http://sws.geonames.org/2660646
 Gera,50.88029,12.08187,http://sws.geonames.org/2921232
 Gießen,50.58727,8.67554,http://sws.geonames.org/2920512
@@ -75,17 +77,20 @@ Klagenfurt,46.62472,14.30528,http://sws.geonames.org/2774326
 Koblenz,50.35357,7.57883,http://sws.geonames.org/2886946
 Konstanz,47.66033,9.17582,http://sws.geonames.org/2885679
 Kopenhagen,55.67594,12.56553,http://sws.geonames.org/2618425
+Krems an der Donau,48.40921,15.61415,http://sws.geonames.org/2773549
 Kronštadt,59.99541,29.76668,http://sws.geonames.org/540771
 Köln,50.93333,6.95,http://sws.geonames.org/2886242
 Königsberg,54.70649,20.51095,http://sws.geonames.org/554234
 Köthen (Anhalt),51.75185,11.97093,http://sws.geonames.org/2885237
-Laibach
+Laibach,46.05108,14.50513,http://sws.geonames.org/3196359
+Landsberg (Warthe),52.73679,15.22878,http://sws.geonames.org/3098722
 Landshut,48.52961,12.16179,http://sws.geonames.org/2881485
 Lauingen (Donau),48.56775,10.42706,http://sws.geonames.org/2880099
 Leipzig,51.33962,12.37129,http://sws.geonames.org/2879139
 Lemgo,52.02786,8.89901,http://sws.geonames.org/2878943
 Liegnitz,51.21006,16.1619,http://sws.geonames.org/3093692
 Linz,48.30639,14.28611,http://sws.geonames.org/2772400
+London,51.50853,-0.12574,http://sws.geonames.org/2643743
 Lübeck,53.86893,10.68729,http://sws.geonames.org/2875601
 Magdeburg,52.12773,11.62916,http://sws.geonames.org/2874545
 Mailand,45.46427,9.18951,http://sws.geonames.org/3173435
@@ -96,12 +101,12 @@ Meiningen,50.56787,10.41521,http://sws.geonames.org/2872225
 Merseburg,51.35478,11.98923,http://sws.geonames.org/2871736
 München,48.13743,11.57549,http://sws.geonames.org/2867714
 Naumburg (Saale),51.14987,11.80979,http://sws.geonames.org/2866906
-Neisse
+Neisse,51.15627,16.07665,http://sws.geonames.org/3090434
 Nordhausen,51.5018,10.7957,http://sws.geonames.org/2861982
 Numburg,51.42412,10.98534,http://sws.geonames.org/2861676
 Nördlingen,48.85122,10.48868,http://sws.geonames.org/2861914
 Nürnberg,49.45421,11.07752,http://sws.geonames.org/2861650
-Offenbach
+Offenbach,48.20868,8.21472,http://sws.geonames.org/2857805
 Offenbach am Main,50.08861,8.7825,http://sws.geonames.org/3220975
 Oldenburg (Oldenburg),53.14118,8.21467,http://sws.geonames.org/2857458
 Oppenheim,49.8547,8.35974,http://sws.geonames.org/2857167
@@ -109,7 +114,6 @@ Ottobeuren,47.9413,10.29971,http://sws.geonames.org/2855937
 Paris,48.85341,2.3488,http://sws.geonames.org/2988507
 Passau,48.5665,13.43122,http://sws.geonames.org/2855328
 Penig,50.93336,12.70422,http://sws.geonames.org/2854967
-Pest
 Pforzheim,48.88436,8.69892,http://sws.geonames.org/2853969
 Posen,52.40692,16.92993,http://sws.geonames.org/3088171
 Potsdam,52.39886,13.06566,http://sws.geonames.org/2852458
@@ -123,7 +127,8 @@ Rorschach,47.478,9.4903,http://sws.geonames.org/2658969
 Rostock,54.0887,12.14049,http://sws.geonames.org/2844588
 Rothenburg ob der Tauber,49.37885,10.18711,http://sws.geonames.org/2844056
 Rudolstadt,50.72043,11.34046,http://sws.geonames.org/2843355
-Ruhstorf-Sulzbach
+Ruhstorf-Sulzbach,48.46211,13.38959,http://sws.geonames.org/2824808
+Römhild,50.39639,10.53889,http://sws.geonames.org/2845304
 Salzburg,47.79941,13.04399,http://sws.geonames.org/2766824
 Sankt Gallen,47.42391,9.37477,http://sws.geonames.org/2658822
 Sankt Petersburg,59.93863,30.31413,http://sws.geonames.org/498817
@@ -133,10 +138,13 @@ Schleswig,54.52156,9.5586,http://sws.geonames.org/2838634
 Schloss Bevern,51.8572,9.4961,http://sws.geonames.org/2949489
 Schneeberg,50.59465,12.64139,http://sws.geonames.org/2837470
 Schwabach,49.33047,11.02346,http://sws.geonames.org/2835537
+Siegen,50.87481,8.02431,http://sws.geonames.org/2832495
 Sondershausen,51.36973,10.87011,http://sws.geonames.org/2831276
 Sorau,51.64205,15.13727,http://sws.geonames.org/3080644
 Stendal,52.6069,11.85867,http://sws.geonames.org/2827479
-Stettin
+Stettin,53.42894,14.55302,http://sws.geonames.org/3083829
+Stockholm,59.32938,18.06871,http://sws.geonames.org/2673730
+Stralsund,54.30911,13.0818,http://sws.geonames.org/2826287
 Straßburg,48.58392,7.74553,http://sws.geonames.org/2973783
 Stuttgart,48.78232,9.17702,http://sws.geonames.org/2825297
 Sulzbach-Rosenberg,49.50126,11.74598,http://sws.geonames.org/2824801
