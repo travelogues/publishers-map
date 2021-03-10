@@ -18,8 +18,8 @@ GEOLOCATIONS = '../data/unique_places_geocoded.csv';
 OUTFILE = '../data/map.json';
 
 const parsePlaces = val => {
-  // Multiple places are separated by -. (convention)
-  const tokens = val.split('-.').map(str => str.trim());
+  // Multiple places are separated by ' $ ' (convention)
+  const tokens = val.split(' $ ').map(str => str.trim());
 
   // Each places is (usually "placename ; GND-ID")
   return tokens.map(token => token.split(';')[0].trim())

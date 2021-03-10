@@ -8,7 +8,11 @@ import './App.css';
 
 const computeTimeline = data => {
   const reducer = (acc, feature) => {
-    feature.records.forEach(r => acc.add(r.year));
+    feature.records.forEach(r => { 
+      if (r.year)
+        acc.add(r.year);
+    });
+
     return acc;
   }
 
