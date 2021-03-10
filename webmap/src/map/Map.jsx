@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import React, { useState } from 'react';
 import bbox from '@turf/bbox';
 import { MapContainer, CircleMarker, Popup, TileLayer } from 'react-leaflet';
 import Legend from './Legend';
@@ -22,6 +22,8 @@ const STYLE_INNER = {...STYLE_OUTER,
   fillColor: '#ff9a1e' 
 };
 
+const MIN_MARKER_SIZE = 5;
+
 const getBounds = geojson => {
   const bounds = bbox(geojson);
   return [
@@ -38,8 +40,11 @@ const Map = ({ data, index, timerange }) => {
 
   const featuresToDisplay = timerange ? allFeatures.filter(f => {
     const { min, max } = timerange;
-    const { earliest, latest } = f.properties;
-    return earliest <= max && latest >= min; 
+
+    const worksInRange = f.records
+      .filter(r => r.year >= min && r.year <= max);
+  
+    return worksInRange.length > 0; 
   }) : allFeatures;
 
   const hasSelectedMarker = feature => {
@@ -55,17 +60,29 @@ const Map = ({ data, index, timerange }) => {
   }
 
   // TODO make min/max scale dynamic, based on the values in the data
-  const getRadius = feature => {
+  const getFeatureInfo = feature => {
     const allWorks = timerange ? feature.records
       .filter(r => r.year >= timerange.min && r.year <= timerange.max) : feature.records;
 
     const worksWithMarker = selectedMarker ? 
       allWorks.filter(r => r.markers.includes(selectedMarker)) : allWorks;
 
-    const outer = Math.max(3, allWorks.length / 2.5);
-    const inner = worksWithMarker.length > 0 ? Math.max(3, worksWithMarker.length / 2.5) : 0;
+    const outerRadius = Math.max(MIN_MARKER_SIZE, allWorks.length / 2.5);
+    const innerRadius = worksWithMarker.length > 0 ? Math.max(MIN_MARKER_SIZE, worksWithMarker.length / 2.5) : 0;
     
-    return { outer, inner };
+    const popup = 
+      <Popup>
+        <h1><a href={feature.properties.geonames_uri}>{feature.properties.placename}</a></h1>
+        { selectedMarker  ?
+          <>
+            <p>{worksWithMarker.length} works '{selectedMarker}'</p>
+            <p>{allWorks.length} works total</p>
+          </> : 
+          <p>{allWorks.length} works</p>
+        }
+      </Popup>
+
+    return { outerRadius, innerRadius, popup };
   }
 
   return (
@@ -75,28 +92,32 @@ const Map = ({ data, index, timerange }) => {
           <MapContainer bounds={getBounds(data)} preferCanvas={true}>
             <TileLayer url="https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}" />
 
-            { featuresToDisplay.map((f, idx) => {
-              const { outer, inner } = getRadius(f);
+            { featuresToDisplay.map(f => {
+              const { outerRadius, innerRadius, popup } = getFeatureInfo(f);
               return (
-                <>
+                <React.Fragment key={f.properties.placename}>
                   <CircleMarker
-                    key={`${idx}-outer`}
+                    key={`${f.properties.placename}-outer`}
                     center={f.geometry.coordinates.slice().reverse()}
-                    radius={outer}
-                    pathOptions={STYLE_OUTER} />
+                    radius={outerRadius}
+                    pathOptions={STYLE_OUTER}>
+                    
+                    {popup}
 
-                  { selectedMarker && inner > 0 && <CircleMarker 
-                      key={`${idx}-inner`} 
+                  </CircleMarker>
+
+                  { selectedMarker && innerRadius > 0 && 
+                    <CircleMarker 
+                      key={`${f.properties.placename}-inner`} 
                       center={f.geometry.coordinates.slice().reverse()}
-                      radius={inner}
+                      radius={innerRadius}
                       pathOptions={STYLE_INNER}>
-                      <Popup>
-                        <a href={f.properties.geonames_uri}>{f.properties.placename}</a> <br/>
-                        {f.properties.num_works} works
-                      </Popup>
+                      
+                      { popup }
+
                     </CircleMarker>
                   }
-                </>
+                </React.Fragment>
               )
             })}
           </MapContainer>
