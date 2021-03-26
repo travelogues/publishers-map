@@ -11,15 +11,16 @@ const STYLE_OUTER = {
   stroke: true,
   color: '#4e4e4e',
   weight: 1.5,
-  opacity: 1,
+  opacity: 0.65,
   fill: true,
   fillColor: '#b7b7b7',
-  fillOpacity: 1
+  fillOpacity: 0.7
 };
 
 const STYLE_INNER = {...STYLE_OUTER, 
   color: '#bf7814',
-  fillColor: '#ff9a1e' 
+  fillColor: '#ff9a1e', 
+  fillOpacity: 1
 };
 
 const MIN_MARKER_SIZE = 5 * 5;
